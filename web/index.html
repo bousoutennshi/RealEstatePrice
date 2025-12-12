@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ブランズタワー豊洲 - Real Estate Explorer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <div class="container">
+        <header class="glass-panel">
+            <div class="header-content">
+                <div class="title-section">
+                    <h1>ブランズタワー豊洲</h1>
+                    <p class="subtitle">Premium Real Estate Explorer</p>
+                </div>
+                <div class="stats-section">
+                    <div class="stat-item">
+                        <span class="stat-label">Total Listings</span>
+                        <span class="stat-value" id="total-listings">-</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Min Price</span>
+                        <span class="stat-value" id="min-price">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Search properties...">
+                </div>
+
+                <div class="filter-controls">
+                    <select id="sort-select" class="glass-select">
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="floor-desc">Floor: High to Low</option>
+                        <option value="floor-asc">Floor: Low to High</option>
+                        <option value="area-desc">Area: Large to Small</option>
+                        <option value="posted-desc">Newest First</option>
+                    </select>
+                </div>
+
+                <button id="refresh-btn" class="glass-btn">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </div>
+        </header>
+
+        <main id="listings-grid" class="listings-grid">
+            <!-- Listings will be injected here -->
+            <div class="loading-spinner">
+                <i class="fas fa-circle-notch fa-spin"></i> Loading...
+            </div>
+        </main>
+
+        <footer class="glass-panel">
+            <p>&copy; 2025 Real Estate Scraper Project. Last updated: <span id="last-updated">-</span></p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
