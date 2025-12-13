@@ -122,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const directionFormatted = listing.direction || '-';
         const maintenance = listing.management_fee ? `¥${listing.management_fee.toLocaleString()}` : '-';
         const repair = listing.repair_reserve ? `¥${listing.repair_reserve.toLocaleString()}` : '-';
+        const pricePerTsubo = calculatePricePerTsubo(listing.price, listing.area);
 
         div.innerHTML = `
             <div class="card-header">
@@ -143,13 +144,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="info-value">${directionFormatted}</span>
                     </div>
                     <div class="info-item">
+                        <span class="info-label"><i class="fas fa-yen-sign info-icon"></i> Price/坪</span>
+                        <span class="info-value">${pricePerTsubo}</span>
+                    </div>
+                    <div class="info-item">
                         <span class="info-label"><i class="fas fa-tools info-icon"></i> Repair Fee</span>
                         <span class="info-value">${repair}</span>
                     </div>
                 </div>
                 
                 <div class="tags-section">
-                    <span class="tag source-${listing.source.toLowerCase()}">${listing.source}</span>
+                    <span class="tag source-${listing.source.toLowerCase().replace(/\s+/g, '')}">${listing.source}</span>
                     ${listing.age_years ? `<span class="tag">Age: ${listing.age_years}yr</span>` : ''}
                 </div>
             </div>
@@ -175,5 +180,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const man = Math.floor(price / 10000);
             return `<span style="font-size:1.4em">${man}</span>万円`;
         }
+    }
+
+    function calculatePricePerTsubo(price, area) {
+        if (!price || !area) return '-';
+
+        // 1坪 = 3.3058 m²
+        const tsubo = area / 3.3058;
+        const pricePerTsubo = price / tsubo;
+
+        // 万円単位で表示
+        const manYen = Math.floor(pricePerTsubo / 10000);
+        return `${manYen.toLocaleString()}万円`;
     }
 });

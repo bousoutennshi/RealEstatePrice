@@ -72,7 +72,9 @@ source venv/bin/activate
 python main.py
 ```
 
-実行が完了すると、`data/processed/` ディレクトリに新しいJSONファイル（例: `merged_20251213_001600.json`）が生成されます。
+実行が完了すると、`data/processed/` ディレクトリに `latest.json` ファイルが生成されます。
+
+> **注意:** データファイルは常に `latest.json` という固定ファイル名で上書き保存されます。過去のデータを保持したい場合は、実行前に手動でバックアップしてください。
 
 ### 2. Webサイトでの確認
 
@@ -95,7 +97,7 @@ Webサイトでは以下の機能が利用できます：
 - **重複排除**: 条件が一致する物件を自動的にまとめて表示（「Unique Listings」）
 
 **データの更新反映について**:
-Webサイトは、リロードするたびに最新のJSONファイルを自動的に読み込みます。データを更新したい場合は、ターミナルで `python main.py` を実行した後、ブラウザをリロードしてください。
+Webサイトは、リロードするたびに `latest.json` を読み込みます。データを更新したい場合は、ターミナルで `python main.py` を実行した後、ブラウザをリロードしてください。
 
 ### データの確認（コマンドライン）
 
@@ -124,6 +126,10 @@ Webサイトは、リロードするたびに最新のJSONファイルを自動�
   ]
 }
 ```
+
+**ファイル命名規則:**
+- 統合データ: `data/processed/latest.json` (常に最新データで上書き)
+- 生データ: `data/raw/{source}_latest.json` (各ソースごとに上書き)
 
 ## 📁 プロジェクト構造
 
@@ -185,6 +191,40 @@ RealEstatePrice/
 ### IP制限
 
 頻繁なアクセスによりIPアドレスが一時的にブロックされる可能性があります。実行頻度に注意してください。
+
+## 🚀 Railway デプロイ
+
+Railway環境でWebサーバーをデプロイする際の注意事項：
+
+### データの永続化
+
+- Railway環境では、デプロイのたびにコンテナがリセットされます
+- データを永続化する場合は、Railway Volumesの設定が必要です
+- 本システムは `latest.json` という固定ファイルを使用するため、永続化設定がシンプルです
+
+### 推奨デプロイ方法
+
+1. **ローカルでスクレイピング実行**
+   ```bash
+   python main.py
+   ```
+
+2. **データファイルをコミット（オプション）**
+   ```bash
+   git add data/processed/latest.json
+   git commit -m "Update property data"
+   git push
+   ```
+
+3. **Railwayで自動デプロイ**
+   - GitHubにpushすると自動的にRailwayでデプロイ
+   - `server.py` がWebサーバーとして起動
+
+### 環境変数設定（Railway）
+
+```bash
+PORT=8000  # Railwayが自動設定
+```
 
 ## 🐛 トラブルシューティング
 

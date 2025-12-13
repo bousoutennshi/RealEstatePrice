@@ -28,7 +28,7 @@ class DataManager:
     
     def save_raw_data(self, source: str, data: List[Dict[str, Any]]) -> str:
         """
-        生データを保存する
+        生データを保存する（固定ファイル名で上書き）
         
         Args:
             source: データソース名（例: "suumo"）
@@ -37,8 +37,7 @@ class DataManager:
         Returns:
             str: 保存したファイルパス
         """
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = f"{source}_{timestamp}.json"
+        filename = f"{source}_latest.json"
         filepath = os.path.join(self.raw_data_dir, filename)
         
         output_data = {
@@ -96,7 +95,7 @@ class DataManager:
     
     def save_processed_data(self, data: List[Dict[str, Any]], property_name: str) -> str:
         """
-        処理済みデータを保存する
+        処理済みデータを保存する（固定ファイル名で上書き）
         
         Args:
             data: 統合された物件データのリスト
@@ -105,8 +104,7 @@ class DataManager:
         Returns:
             str: 保存したファイルパス
         """
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = f"merged_{timestamp}.json"
+        filename = "latest.json"
         filepath = os.path.join(self.processed_data_dir, filename)
         
         output_data = {
@@ -129,9 +127,7 @@ class DataManager:
         Returns:
             str: ファイルパス（存在しない場合はNone）
         """
-        files = [f for f in os.listdir(self.processed_data_dir) if f.startswith('merged_')]
-        if not files:
-            return None
-        
-        files.sort(reverse=True)
-        return os.path.join(self.processed_data_dir, files[0])
+        filepath = os.path.join(self.processed_data_dir, "latest.json")
+        if os.path.exists(filepath):
+            return filepath
+        return None

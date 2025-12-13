@@ -46,3 +46,5 @@ logs/
 # Selenium
 chromedriver
 geckodriver
+
+server.pid
