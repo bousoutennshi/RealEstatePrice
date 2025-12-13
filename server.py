@@ -28,8 +28,9 @@ async def get_listings():
     if not files:
         return {"error": "No data found", "listings": [], "total_listings": 0}
     
-    # タイムスタンプ順にソートして最新を取得
-    latest_file = max(files, key=os.path.getctime)
+    # ファイル名（タイムスタンプ）順にソートして最新を取得
+    # os.path.getctimeは環境によって信頼性が低いため、ファイル名を使用
+    latest_file = max(files)
     
     try:
         with open(latest_file, 'r', encoding='utf-8') as f:

@@ -1,5 +1,6 @@
 """スクレイパー基底クラス"""
 import time
+import re
 import requests
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
@@ -42,6 +43,8 @@ class BaseScraper(ABC):
         """
         retries = self.scraping_config['max_retries']
         timeout = self.scraping_config['timeout']
+        
+
         
         for attempt in range(retries):
             try:
@@ -104,6 +107,10 @@ class BaseScraper(ABC):
             return None
         
         try:
+            # 余分な括弧書きを除去（例: "2万3200円（委託(通勤)）" -> "2万3200円"）
+            price_str = re.sub(r'（.*?）', '', price_str)
+            price_str = re.sub(r'\(.*?\)', '', price_str)
+            
             # カンマと空白を除去
             price_str = price_str.replace(',', '').replace(' ', '').replace('　', '')
             
@@ -129,6 +136,14 @@ class BaseScraper(ABC):
                 return int(value * 100000000)
             
             # 円の場合
+            if '円' in price_str and '万' in price_str:
+                # "2万3200円" -> 23200
+                val = price_str.replace('円', '')
+                parts = val.split('万')
+                man = float(parts[0])
+                rest = float(parts[1]) if parts[1] else 0
+                return int(man * 10000 + rest)
+
             if '円' in price_str:
                 return int(price_str.replace('円', ''))
             

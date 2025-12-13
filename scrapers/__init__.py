@@ -3,12 +3,14 @@ from .base_scraper import BaseScraper
 from .suumo_scraper import SuumoScraper
 from .homes_scraper import HomesScraper
 from .athome_scraper import AthomeScraper
-from .fudosan_scraper import FudosanScraper
+from .rehouse_scraper import RehouseScraper
+from .livable_scraper import LivableScraper
 
 __all__ = [
     'BaseScraper',
     'SuumoScraper',
     'HomesScraper',
     'AthomeScraper',
-    'FudosanScraper',
+    'RehouseScraper',
+    'LivableScraper',
 ]
