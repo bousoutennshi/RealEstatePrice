@@ -1,6 +1,7 @@
 # データファイル
-data/
-*.json
+data/raw/
+data/processed/*.json
+!data/processed/latest.json
 !config/config.json
 
 # Python
