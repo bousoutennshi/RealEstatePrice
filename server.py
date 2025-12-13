@@ -47,5 +47,7 @@ if os.path.exists("web"):
 
 if __name__ == "__main__":
     import uvicorn
-    # リロード機能を有効にしてサーバー起動
-    uvicorn.run("server:app", host="0.0.0.0", port=8000, reload=True)
+    import os
+    # Railway環境ではPORT環境変数を使用、ローカルでは8000
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("server:app", host="0.0.0.0", port=port, reload=True)
