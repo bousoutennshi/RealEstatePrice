@@ -332,9 +332,9 @@ h1 {
 }
 
 .tag.source-athome {
-    background: rgba(59, 130, 246, 0.2);
-    color: #3b82f6;
-    border-color: rgba(59, 130, 246, 0.3);
+    background: rgba(251, 146, 60, 0.2);
+    color: #fb923c;
+    border-color: rgba(251, 146, 60, 0.4);
 }
 
 .tag.source-livable {

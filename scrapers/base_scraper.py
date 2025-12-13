@@ -147,6 +147,10 @@ class BaseScraper(ABC):
             if '円' in price_str:
                 return int(price_str.replace('円', ''))
             
+            # 単位が取れて数値のみになっている場合
+            if price_str.isdigit():
+                return int(price_str)
+            
             return None
         
         except (ValueError, AttributeError) as e:

@@ -1,6 +1,5 @@
 import os
 import json
-import glob
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,17 +22,14 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "data", "processed")
 @app.get("/api/listings")
 async def get_listings():
     """最新の物件データを取得する"""
-    # 最新の統合データファイルを探す
-    files = glob.glob(os.path.join(DATA_DIR, "merged_*.json"))
-    if not files:
+    # 固定ファイル名のデータファイルを読み込む
+    filepath = os.path.join(DATA_DIR, "latest.json")
+    
+    if not os.path.exists(filepath):
         return {"error": "No data found", "listings": [], "total_listings": 0}
     
-    # ファイル名（タイムスタンプ）順にソートして最新を取得
-    # os.path.getctimeは環境によって信頼性が低いため、ファイル名を使用
-    latest_file = max(files)
-    
     try:
-        with open(latest_file, 'r', encoding='utf-8') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
         return data
     except Exception as e:
