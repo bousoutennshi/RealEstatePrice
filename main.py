@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime
 
 from utils import setup_logger, DataManager
-from scrapers import SuumoScraper, HomesScraper, AthomeScraper, FudosanScraper
+from scrapers import SuumoScraper, HomesScraper, AthomeScraper, RehouseScraper, LivableScraper
 
 
 def load_config(config_path: str = 'config/config.json') -> dict:
@@ -52,10 +52,10 @@ def main():
     # スクレイパーの初期化
     scrapers = [
         SuumoScraper(config),
-        # 他のスクレイパーは実装が完了したら追加
-        # HomesScraper(config),
-        # AthomeScraper(config),
-        # FudosanScraper(config),
+        HomesScraper(config),
+        AthomeScraper(config),
+        RehouseScraper(config),
+        LivableScraper(config),
     ]
     
     # 各サイトからデータを収集

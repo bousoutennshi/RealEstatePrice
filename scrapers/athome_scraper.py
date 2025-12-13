@@ -11,7 +11,7 @@ class AthomeScraper(BaseScraper):
     BASE_URL = "https://www.athome.co.jp"
     
     def get_source_name(self) -> str:
-        return "at_home"
+        return "at home"
     
     def scrape(self) -> List[Dict[str, Any]]:
         """
@@ -23,10 +23,6 @@ class AthomeScraper(BaseScraper):
         self.logger.info(f"Starting {self.get_source_name()} scraping...")
         
         property_name = self.property_config['name']
-        layout = self.property_config['layout']
-        
-        self.logger.info(f"Note: at home scraper requires manual URL setup")
-        self.logger.info(f"Please visit at home website and search for '{property_name} {layout}'")
         
         listings = []
         

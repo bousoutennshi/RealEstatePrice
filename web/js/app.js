@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // キー: price-area-floor-direction
             const uniqueMap = new Map();
             data.listings.forEach(item => {
-                const key = `${item.price || 0}-${item.area || 0}-${item.floor || 0}-${item.direction || ''}`;
+                // ソースごとの重複排除に変更（異なるサイトなら同じ物件でも表示）
+                const key = `${item.source}-${item.price || 0}-${item.area || 0}-${item.floor || 0}-${item.direction || ''}`;
                 if (!uniqueMap.has(key)) {
                     uniqueMap.set(key, item);
                 }
@@ -148,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 
                 <div class="tags-section">
-                    <span class="tag source-suumo">${listing.source}</span>
+                    <span class="tag source-${listing.source.toLowerCase()}">${listing.source}</span>
                     ${listing.age_years ? `<span class="tag">Age: ${listing.age_years}yr</span>` : ''}
                 </div>
             </div>
