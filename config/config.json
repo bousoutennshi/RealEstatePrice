@@ -2,7 +2,12 @@
   "property": {
     "name": "ブランズタワー豊洲",
     "area": "東京都江東区豊洲",
-    "layout": "2LDK"
+    "layouts": [
+      "1LDK",
+      "2LDK",
+      "3LDK",
+      "4LDK"
+    ]
   },
   "scraping": {
     "request_interval": 2,

@@ -43,13 +43,32 @@ class SuumoScraper(BaseScraper):
         """
         listings = []
         
-        # SUUMOの検索URL（ブランズタワー豊洲、2LDK）
+        # 間取りからSUUMOのmdパラメータを取得
+        layout_map = {
+            '1K': '1',
+            '1DK': '1',
+            '1LDK': '1',
+            '2K': '2',
+            '2DK': '2',
+            '2LDK': '2',
+            '3K': '3',
+            '3DK': '3',
+            '3LDK': '3',
+            '4K': '4',
+            '4DK': '4',
+            '4LDK': '4',
+        }
+        
+        # layoutから数字部分を抽出（例: "2LDK" -> "2"）
+        md_value = layout_map.get(layout, '2')  # デフォルトは2LDK
+        
+        # SUUMOの検索URL
         search_url = "https://suumo.jp/jj/bukken/ichiran/JJ012FC001/"
         search_params = {
             'ar': '030',  # 関東
             'bs': '011',  # 中古マンション
             'fw': property_name,  # フリーワード
-            'md': '2',  # 2LDK
+            'md': md_value,  # 間取り（動的に設定）
             'kb': '1',
             'kt': '9999999',
             'mb': '0',
