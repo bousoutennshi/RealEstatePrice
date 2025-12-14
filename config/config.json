@@ -1,14 +1,17 @@
 {
-  "property": {
-    "name": "ブランズタワー豊洲",
-    "area": "東京都江東区豊洲",
-    "layouts": [
-      "1LDK",
-      "2LDK",
-      "3LDK",
-      "4LDK"
-    ]
-  },
+  "properties": [
+    {
+      "id": "BranzTowerToyosu",
+      "name": "ブランズタワー豊洲",
+      "area": "東京都江東区豊洲",
+      "layouts": [
+        "1LDK",
+        "2LDK",
+        "3LDK",
+        "4LDK"
+      ]
+    }
+  ],
   "scraping": {
     "request_interval": 2,
     "timeout": 10,
@@ -16,7 +19,6 @@
     "max_retries": 3
   },
   "output": {
-    "raw_data_dir": "data/raw",
-    "processed_data_dir": "data/processed"
+    "data_base_dir": "data"
   }
 }

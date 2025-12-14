@@ -1,7 +1,7 @@
 # データファイル
-data/raw/
-data/processed/*.json
-!data/processed/latest.json
+data/*/raw/              # 各マンションのrawデータ
+data/*/processed/*.json  # processedディレクトリの全JSONファイル
+!data/*/processed/latest.json  # latest.jsonのみコミット対象
 !config/config.json
 
 # Python

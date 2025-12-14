@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // URLからマンションIDを取得
+    const pathParts = window.location.pathname.split('/').filter(p => p);
+    const propertyId = pathParts[0] || 'BranzTowerToyosu';  // デフォルト
+
     // Elements
     const listingsGrid = document.getElementById('listings-grid');
     const totalListingsEl = document.getElementById('total-listings');
@@ -11,8 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // State
     let listings = [];
+    let currentProperty = null;
 
     // Initial Load
+    loadPropertyInfo();
     fetchListings();
 
     // Event Listeners
@@ -26,9 +32,31 @@ document.addEventListener('DOMContentLoaded', () => {
         fetchListings();
     });
 
+    async function loadPropertyInfo() {
+        try {
+            const response = await fetch('/api/properties');
+            const data = await response.json();
+            if (data.properties) {
+                currentProperty = data.properties.find(p => p.id === propertyId);
+                if (currentProperty) {
+                    document.title = currentProperty.name;
+                    // ヘッダーのタイトルも更新（存在する場合）
+                    const headerTitle = document.querySelector('.header h1');
+                    if (headerTitle) {
+                        headerTitle.textContent = currentProperty.name;
+                    }
+                }
+            }
+        } catch (error) {
+            console.error('Error loading property info:', error);
+        }
+    }
+
     async function fetchListings() {
         try {
-            const response = await fetch('/api/listings');
+            // マンション固有のAPIエンドポイント
+            const apiUrl = `/api/properties/${propertyId}/listings`;
+            const response = await fetch(apiUrl);
             const data = await response.json();
 
             if (data.error) {

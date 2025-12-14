@@ -31,14 +31,12 @@ def main():
     # ロガーのセットアップ
     logger = setup_logger('main', 'logs/scraping.log')
     logger.info("=" * 60)
-    logger.info("ブランズタワー豊洲 物件データ収集を開始します")
+    logger.info("物件データ収集を開始します")
     logger.info("=" * 60)
     
     # 設定の読み込み
     try:
         config = load_config()
-        logger.info(f"Target property: {config['property']['name']}")
-        logger.info(f"Layouts: {', '.join(config['property']['layouts'])}")
     except FileNotFoundError:
         logger.error("Config file not found: config/config.json")
         sys.exit(1)
@@ -46,20 +44,32 @@ def main():
         logger.error(f"Failed to parse config file: {e}")
         sys.exit(1)
     
-    # データマネージャーの初期化
-    data_manager = DataManager(config)
+    # 各マンションごとに処理
+    for property_config in config['properties']:
+        logger.info(f"\n{'=' * 60}")
+        logger.info(f"マンション: {property_config['name']}")
+        logger.info(f"Layouts: {', '.join(property_config['layouts'])}")
+        logger.info(f"{'=' * 60}")
+        
+        # データマネージャーの初期化
+        data_manager = DataManager(property_config, config['output']['data_base_dir'])
+        
+        process_property(property_config, data_manager, logger)
+
+
+def process_property(property_config, data_manager, logger):
+    """マンション固有の処理"""
     
     # 全LDKタイプのデータを収集
     all_layouts_data = []
     
-    for layout in config['property']['layouts']:
+    for layout in property_config['layouts']:
         logger.info(f"\n{'=' * 60}")
         logger.info(f"間取り: {layout} のデータ収集を開始")
         logger.info(f"{'=' * 60}")
         
         # 現在のレイアウト用に設定を一時的に更新
-        current_config = config.copy()
-        current_config['property'] = config['property'].copy()
+        current_config = {'property': property_config.copy()}
         current_config['property']['layout'] = layout
         
         # スクレイパーの初期化
@@ -118,7 +128,7 @@ def main():
         # 統合データを保存
         processed_file = data_manager.save_processed_data(
             merged_listings,
-            config['property']['name']
+            property_config['name']
         )
         
         logger.info("=" * 60)
@@ -131,8 +141,8 @@ def main():
         print("\n" + "=" * 60)
         print("📊 データ収集結果サマリー")
         print("=" * 60)
-        print(f"物件名: {config['property']['name']}")
-        print(f"間取り: {', '.join(config['property']['layouts'])}")
+        print(f"物件名: {property_config['name']}")
+        print(f"間取り: {', '.join(property_config['layouts'])}")
         print(f"収集サイト数: {len(set(d['source'] for d in all_layouts_data))}サイト")
         print(f"総物件数: {len(merged_listings)}件")
         
