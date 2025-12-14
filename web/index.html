@@ -4,96 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ブランズタワー豊洲 - Real Estate Explorer</title>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <title>不動産価格比較</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .properties-list {
+            display: grid;
+            gap: 1.5rem;
+            max-width: 800px;
+        }
+
+        .property-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        .property-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .property-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .property-area {
+            opacity: 0.8;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="background-animation"></div>
-
     <div class="container">
-        <header class="glass-panel">
-            <div class="header-content">
-                <div class="title-section">
-                    <h1>ブランズタワー豊洲</h1>
-                    <p class="subtitle">Premium Real Estate Explorer</p>
-                </div>
-                <div class="stats-section">
-                    <div class="stat-item">
-                        <span class="stat-label">Total Listings</span>
-                        <span class="stat-value" id="total-listings">-</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Min Price</span>
-                        <span class="stat-value" id="min-price">-</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="controls-section">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="search-input" placeholder="Search properties...">
-                </div>
-
-                <div class="filter-controls">
-                    <div class="checkbox-group">
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="layout-1ldk" value="1LDK" checked>
-                            <span>1LDK</span>
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="layout-2ldk" value="2LDK" checked>
-                            <span>2LDK</span>
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="layout-3ldk" value="3LDK" checked>
-                            <span>3LDK</span>
-                        </label>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="layout-4ldk" value="4LDK" checked>
-                            <span>4LDK</span>
-                        </label>
-                    </div>
-
-                    <select id="sort-select" class="glass-select">
-                        <option value="price-asc">Price: Low to High</option>
-                        <option value="price-desc">Price: High to Low</option>
-                        <option value="floor-desc">Floor: High to Low</option>
-                        <option value="floor-asc">Floor: Low to High</option>
-                        <option value="area-desc">Area: Large to Small</option>
-                        <option value="posted-desc">Newest First</option>
-                    </select>
-                </div>
-
-                <button id="refresh-btn" class="glass-btn">
-                    <i class="fas fa-sync-alt"></i> Refresh
-                </button>
-            </div>
-        </header>
-
-        <main id="listings-grid" class="listings-grid">
-            <!-- Listings will be injected here -->
-            <div class="loading-spinner">
-                <i class="fas fa-circle-notch fa-spin"></i> Loading...
-            </div>
-        </main>
-
-        <footer class="glass-panel">
-            <p>&copy; 2025 Real Estate Scraper Project. Last updated: <span id="last-updated">-</span></p>
-        </footer>
+        <h1>🏢 不動産価格比較</h1>
+        <div class="properties-list" id="properties-list">
+            <div style="color: rgba(255,255,255,0.7);">読み込み中...</div>
+        </div>
     </div>
 
-    <script src="js/app.js?v=2"></script>
+    <script>
+        async function loadProperties() {
+            try {
+                const response = await fetch('/api/properties');
+                const data = await response.json();
+
+                if (data.properties && data.properties.length > 0) {
+                    const container = document.getElementById('properties-list');
+                    container.innerHTML = '';
+
+                    data.properties.forEach(property => {
+                        const card = document.createElement('a');
+                        card.href = `/${property.id}/`;
+                        card.className = 'property-card';
+                        card.innerHTML = `
+                            <div class="property-name">${property.name}</div>
+                            <div class="property-area">${property.area}</div>
+                        `;
+                        container.appendChild(card);
+                    });
+                } else {
+                    document.getElementById('properties-list').innerHTML =
+                        '<div>マンション情報が見つかりません</div>';
+                }
+            } catch (error) {
+                console.error('Error loading properties:', error);
+                document.getElementById('properties-list').innerHTML =
+                    '<div>データの読み込みに失敗しました</div>';
+            }
+        }
+
+        loadProperties();
+    </script>
 </body>
 
 </html>

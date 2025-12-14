@@ -12,15 +12,21 @@ logger = get_logger(__name__)
 class DataManager:
     """データの保存と管理を行うクラス"""
     
-    def __init__(self, config: Dict[str, Any]):
+    def __init__(self, property_config: Dict[str, Any], base_dir: str):
         """
         初期化
         
         Args:
-            config: 設定情報
+            property_config: マンション固有の設定情報
+            base_dir: データベースディレクトリ
         """
-        self.raw_data_dir = config['output']['raw_data_dir']
-        self.processed_data_dir = config['output']['processed_data_dir']
+        self.property_id = property_config['id']
+        self.property_name = property_config['name']
+        
+        # マンション固有のディレクトリパス
+        property_data_dir = os.path.join(base_dir, self.property_id)
+        self.raw_data_dir = os.path.join(property_data_dir, 'raw')
+        self.processed_data_dir = os.path.join(property_data_dir, 'processed')
         
         # ディレクトリの作成
         os.makedirs(self.raw_data_dir, exist_ok=True)

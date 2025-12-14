@@ -1,0 +1,21 @@
+{
+  "source": "livable",
+  "layout": "3LDK",
+  "timestamp": "2025-12-14T23:04:32.546662",
+  "count": 1,
+  "listings": [
+    {
+      "source": "Livable",
+      "title": "ブランズタワー豊洲",
+      "price": 329800000,
+      "url": "https://www.livable.co.jp/mansion/C13251638/",
+      "layout": "3LDK",
+      "area": 101.92,
+      "floor": 26,
+      "age_years": 4,
+      "direction": "南東",
+      "management_fee": 40700,
+      "repair_reserve": 10500
+    }
+  ]
+}
