@@ -26,22 +26,27 @@ class DataManager:
         os.makedirs(self.raw_data_dir, exist_ok=True)
         os.makedirs(self.processed_data_dir, exist_ok=True)
     
-    def save_raw_data(self, source: str, data: List[Dict[str, Any]]) -> str:
+    def save_raw_data(self, source: str, data: List[Dict[str, Any]], layout: str = None) -> str:
         """
         生データを保存する（固定ファイル名で上書き）
         
         Args:
             source: データソース名（例: "suumo"）
             data: 物件データのリスト
+            layout: 間取りタイプ（例: "2LDK"）
         
         Returns:
             str: 保存したファイルパス
         """
-        filename = f"{source}_latest.json"
+        if layout:
+            filename = f"{source}_{layout}_latest.json"
+        else:
+            filename = f"{source}_latest.json"
         filepath = os.path.join(self.raw_data_dir, filename)
         
         output_data = {
             'source': source,
+            'layout': layout,
             'timestamp': datetime.now().isoformat(),
             'count': len(data),
             'listings': data

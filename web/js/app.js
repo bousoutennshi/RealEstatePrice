@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalListingsEl = document.getElementById('total-listings');
     const minPriceEl = document.getElementById('min-price');
     const lastUpdatedEl = document.getElementById('last-updated');
+    const layoutCheckboxes = document.querySelectorAll('input[type="checkbox"][id^="layout-"]');
     const sortSelect = document.getElementById('sort-select');
     const searchInput = document.getElementById('search-input');
     const refreshBtn = document.getElementById('refresh-btn');
@@ -15,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchListings();
 
     // Event Listeners
+    layoutCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', renderListings);
+    });
     sortSelect.addEventListener('change', renderListings);
     searchInput.addEventListener('input', renderListings);
     refreshBtn.addEventListener('click', () => {
@@ -78,12 +82,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderListings() {
-        // Filter
+        // Filter by search term
         const searchTerm = searchInput.value.toLowerCase();
         let filtered = listings.filter(l => {
             return (l.title && l.title.toLowerCase().includes(searchTerm)) ||
                 (l.source && l.source.toLowerCase().includes(searchTerm));
         });
+
+        // Filter by LDK (checkbox-based)
+        const selectedLayouts = Array.from(layoutCheckboxes)
+            .filter(checkbox => checkbox.checked)
+            .map(checkbox => checkbox.value);
+
+        if (selectedLayouts.length > 0) {
+            filtered = filtered.filter(l => selectedLayouts.includes(l.layout));
+        }
 
         // Sort
         const sortValue = sortSelect.value;
@@ -154,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 
                 <div class="tags-section">
+                    ${listing.layout ? `<span class="tag tag-layout">${listing.layout}</span>` : ''}
                     <span class="tag source-${listing.source.toLowerCase().replace(/\s+/g, '')}">${listing.source}</span>
                     ${listing.age_years ? `<span class="tag">Age: ${listing.age_years}yr</span>` : ''}
                 </div>

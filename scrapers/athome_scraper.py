@@ -23,14 +23,33 @@ class AthomeScraper(BaseScraper):
         self.logger.info(f"Starting {self.get_source_name()} scraping...")
         
         property_name = self.property_config['name']
+        layout = self.property_config['layout']
+        
+        # 間取りからat homeのkmパラメータを取得
+        # km005=1K, km006=1DK, km007=1LDK, km010=2LDK, km015=3LDK, km020=4LDK
+        layout_map = {
+            '1K': 'km005',
+            '1DK': 'km006',
+            '1LDK': 'km007',
+            '2K': 'km010',  # 正確なコードは不明ですが、2LDKと同様に扱います
+            '2DK': 'km010',
+            '2LDK': 'km010',
+            '3K': 'km015',
+            '3DK': 'km015',
+            '3LDK': 'km015',
+            '4K': 'km020',
+            '4DK': 'km020',
+            '4LDK': 'km020',
+        }
+        
+        km_value = layout_map.get(layout, 'km010')  # デフォルトは2LDK
         
         # at homeの検索URL
-        # 豊洲駅、2LDK、ブランズタワー豊洲で検索
         url = "https://www.athome.co.jp/mansion/chuko/tokyo/toyosu-st/list/"
         params = {
             'pref': '13',
             'stations': 'tokyometroyurakucho_2347-2347220',
-            'basic': 'kp120,kp001,km010,kt101,ke001,kn001,kj001',
+            'basic': f'kp120,kp001,{km_value},kt101,ke001,kn001,kj001',
             'freeword': property_name,
             'q': '1',
             'sort': '95',

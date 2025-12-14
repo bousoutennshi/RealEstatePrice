@@ -23,15 +23,34 @@ class HomesScraper(BaseScraper):
         self.logger.info(f"Starting {self.get_source_name()} scraping...")
         
         property_name = self.property_config['name']
+        layout = self.property_config['layout']
+        
+        # 間取りからHOME'Sのパラメータを取得
+        # madori_mcf_for_used_sale_residence: 10=1K, 15=1DK, 20=1LDK, 25=2LDK, 30=3LDK, 35=4LDK
+        layout_map = {
+            '1K': '10',
+            '1DK': '15',
+            '1LDK': '20',
+            '2K': '25',  # 正確なコードは不明ですが、2LDKと同様に扱います
+            '2DK': '25', 
+            '2LDK': '25',
+            '3K': '30',
+            '3DK': '30',
+            '3LDK': '30',
+            '4K': '35',
+            '4DK': '35',
+            '4LDK': '35',
+        }
+        
+        madori_value = layout_map.get(layout, '25')  # デフォルトは2LDK
         
         listings = []
         
         # 検索パラメータ
-        # madori_mcf_for_used_sale_residence=25 (2LDK)
         search_url = "https://www.homes.co.jp/mansion/chuko/list/"
         params = {
             'freeword': property_name,
-            'madori_mcf_for_used_sale_residence': '25',
+            'madori_mcf_for_used_sale_residence': madori_value,
             'cond_count': 0 # ページング用（初期値） 
         }
         
