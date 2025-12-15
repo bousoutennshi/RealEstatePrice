@@ -438,3 +438,99 @@ footer {
     color: var(--text-dim);
     font-size: 1.2rem;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    /* Container padding */
+    .container {
+        padding: 15px;
+    }
+
+    /* Header Layout */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    /* Stats Section */
+    .stats-section {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .stat-item {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Controls Section */
+    .controls-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search-box {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .filter-controls {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .checkbox-group {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .glass-select {
+        width: 100%;
+    }
+
+    .glass-btn {
+        width: 100%;
+    }
+
+    /* Grid Layout */
+    .listings-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Card adjustments */
+    .price-tag {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .checkbox-label {
+        font-size: 0.85rem;
+        padding: 3px 6px;
+    }
+
+    .glass-select,
+    .glass-btn {
+        padding: 10px 15px;
+        font-size: 0.85rem;
+    }
+}
