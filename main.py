@@ -54,10 +54,10 @@ def main():
         # データマネージャーの初期化
         data_manager = DataManager(property_config, config['output']['data_base_dir'])
         
-        process_property(property_config, data_manager, logger)
+        process_property(property_config, data_manager, logger, config)
 
 
-def process_property(property_config, data_manager, logger):
+def process_property(property_config, data_manager, logger, config):
     """マンション固有の処理"""
     
     # 全LDKタイプのデータを収集
