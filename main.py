@@ -69,7 +69,10 @@ def process_property(property_config, data_manager, logger):
         logger.info(f"{'=' * 60}")
         
         # 現在のレイアウト用に設定を一時的に更新
-        current_config = {'property': property_config.copy()}
+        current_config = {
+            'property': property_config.copy(),
+            'scraping': config['scraping']
+        }
         current_config['property']['layout'] = layout
         
         # スクレイパーの初期化
