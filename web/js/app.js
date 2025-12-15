@@ -126,6 +126,18 @@ document.addEventListener('DOMContentLoaded', () => {
             filtered = filtered.filter(l => selectedLayouts.includes(l.layout));
         }
 
+        // Update stats based on filtered data
+        totalListingsEl.textContent = filtered.length;
+
+        // Update min price based on filtered data
+        const filteredPrices = filtered.map(l => l.price).filter(p => p > 0);
+        if (filteredPrices.length > 0) {
+            const minPrice = Math.min(...filteredPrices);
+            minPriceEl.innerHTML = formatPrice(minPrice);
+        } else {
+            minPriceEl.textContent = '-';
+        }
+
         // Sort
         const sortValue = sortSelect.value;
         filtered.sort((a, b) => {
