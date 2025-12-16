@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Format date
         if (data.last_updated) {
             const date = new Date(data.last_updated);
-            lastUpdatedEl.textContent = date.toLocaleString('ja-JP');
+            lastUpdatedEl.textContent = date.toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
         }
     }
 
