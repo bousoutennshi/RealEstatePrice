@@ -2,8 +2,8 @@ name: Daily Property Data Update
 
 on:
   schedule:
-    # 毎日 日本時間 午前9時 (UTC 0:00 = JST 9:00) に実行
-    - cron: '0 0 * * *'
+    # 毎日 日本時間 午前7時 (UTC 22:00) に実行（混雑による遅延対策）
+    - cron: '0 22 * * *'
   workflow_dispatch:  # 手動実行も可能
 
 permissions:
