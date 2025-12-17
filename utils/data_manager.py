@@ -1,7 +1,7 @@
 """データ管理ユーティリティ"""
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Dict, Any
 from utils.logger import get_logger
 
@@ -53,7 +53,7 @@ class DataManager:
         output_data = {
             'source': source,
             'layout': layout,
-            'timestamp': datetime.now().isoformat(),
+            'timestamp': datetime.now(timezone.utc).isoformat(),
             'count': len(data),
             'listings': data
         }
@@ -120,7 +120,7 @@ class DataManager:
         
         output_data = {
             'property_name': property_name,
-            'last_updated': datetime.now().isoformat(),
+            'last_updated': datetime.now(timezone.utc).isoformat(),
             'total_listings': len(data),
             'listings': data
         }
