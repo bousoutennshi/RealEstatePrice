@@ -45,16 +45,28 @@ class AthomeScraper(BaseScraper):
         km_value = layout_map.get(layout, 'km010')  # デフォルトは2LDK
         
         # at homeの検索URL
-        url = "https://www.athome.co.jp/mansion/chuko/tokyo/toyosu-st/list/"
+        # configからURLを取得、なければデフォルト（豊洲）を使用
+        url = self.property_config.get('athome_url', "https://www.athome.co.jp/mansion/chuko/tokyo/toyosu-st/list/")
+        
         params = {
-            'pref': '13',
-            'stations': 'tokyometroyurakucho_2347-2347220',
-            'basic': f'kp120,kp001,{km_value},kt101,ke001,kn001,kj001',
             'freeword': property_name,
             'q': '1',
             'sort': '95',
             'limit': '100'
         }
+        
+        # URLにクエリパラメータが含まれているかチェックし、paramsに追加
+        # 基本パラメータ（basic）などはURLに含まれていると仮定するか、
+        # 必要な場合はここで追加するロジックを実装
+        if 'kp' not in url and 'basic' not in params:
+             # 既存のハードコードされたパラメータを使用（レガシーサポート）
+             if 'toyosu-st' in url:
+                 params['pref'] = '13'
+                 params['stations'] = 'tokyometroyurakucho_2347-2347220'
+                 params['basic'] = f'kp120,kp001,{km_value},kt101,ke001,kn001,kj001'
+             else:
+                 # 汎用的な検索パラメータ
+                 params['basic'] = f'kp120,kp001,{km_value},kt101,ke001,kn001,kj001'
         
         soup = self._get_page(url, params)
         if not soup:

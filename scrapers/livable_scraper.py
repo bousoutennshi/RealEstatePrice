@@ -26,17 +26,40 @@ class LivableScraper(BaseScraper):
         listings = []
         target_layout = self.property_config['layout'] # e.g. "2LDK"
         
-        soup = self._get_page(self.TARGET_URL)
+        # 東急リバブルのマンションライブラリページを取得
+        # configからURLを取得、なければデフォルト（豊洲）を使用
+        target_url = self.property_config.get('livable_url', "https://www.livable.co.jp/mansion/library/000000810513/")
+        
+        soup = self._get_page(target_url)
         if not soup:
             self.logger.error("Failed to fetch Livable page")
             return listings
             
+        # 物件リストの取得
+        # パターン1: マンションライブラリ (.m-room-list__item)
         items = soup.select('.m-room-list__item')
-        self.logger.info(f"Found {len(items)} items on Livable page")
+        is_search_result = False
+        
+        if items:
+            self.logger.info(f"Found {len(items)} items (Library Mode)")
+        else:
+            # パターン2: 検索結果 (.o-product-list__item, .product-list__item)
+            items = soup.select('.o-product-list__item, .product-list__item')
+            if items:
+                is_search_result = True
+                self.logger.info(f"Found {len(items)} items (Search Result Mode)")
+            else:
+                self.logger.warning("No properties found (checked library and search patterns)")
+                return listings
         
         count = 0
         for item in items:
-            listing = self._parse_listing(item)
+            listing = None
+            if is_search_result:
+                listing = self._parse_search_listing(item)
+            else:
+                listing = self._parse_listing(item)
+                
             if listing:
                 # 間取りフィルタリング
                 layout = listing.get('layout', '')
@@ -46,9 +69,11 @@ class LivableScraper(BaseScraper):
                 else:
                     self.logger.debug(f"Skipping layout: {layout} (Target: {target_layout})")
         
-        # 詳細情報の取得
+        # 詳細情報の取得 (検索結果ページでも詳細URLは取れるはず)
         for i, listing in enumerate(listings):
             if 'url' in listing:
+                # 詳細ページ取得の負荷を考慮し、検索結果モードでも必要なら取る
+                # ただし検索結果ページに情報が多ければスキップも可だが、今回は既存ロジックを踏襲
                 self.logger.info(f"Fetching details for {listing['title']} ({i+1}/{len(listings)})...")
                 details = self._fetch_details(listing['url'])
                 if details:
@@ -195,4 +220,65 @@ class LivableScraper(BaseScraper):
         
         except Exception as e:
             self.logger.error(f"Failed to parse Livable listing: {e}")
+            return None
+            
+    def _parse_search_listing(self, item: BeautifulSoup) -> Optional[Dict[str, Any]]:
+        """
+        検索結果ページ（.product-list__item）から情報を抽出する
+        """
+        try:
+            data = {
+                'source': self.get_source_name(),
+                'title': self.property_config['name']  # タイトルはconfigから（またはページ内から取得）
+            }
+            
+            # リンク
+            link = item.find('a')
+            if link and link.get('href'):
+                data['url'] = urljoin(self.BASE_URL, link.get('href'))
+                
+                         
+            # 全テキストから抽出
+            text = item.get_text(separator=' ', strip=True)
+
+            # タイトルがテキストに含まれていれば取得（詳細ページリンクのテキストなど）
+            if link:
+                link_text = link.get_text(strip=True)
+                # ノイズ除去: "閲覧済...<>" などを削除
+                clean_title = re.sub(r'^.*<>', '', link_text)
+                if self.property_config['name'] in clean_title:
+                     data['title'] = clean_title
+            
+            # 価格
+            price_match = re.search(r'((?:[\d,]+\s*億)?\s*(?:[\d,]+\s*)万円|[\d,]+\s*億円)', text)
+            if price_match:
+                data['price'] = self._parse_price(price_match.group(0))
+            else:
+                self.logger.warning(f"Price not found in text: {text[:50]}...")
+            
+            # 間取り
+            layout_match = re.search(r'(\d+[SLDKR]+)', text)
+            if layout_match:
+                data['layout'] = layout_match.group(1)
+            
+            # 面積
+            area_match = re.search(r'([\d]+(?:\s*\.\s*[\d]+)?)\s*(㎡|m\s*2)', text)
+            if area_match:
+                data['area'] = self._parse_area(area_match.group(1))
+            else:
+                self.logger.warning(f"Area not found in text: {text[:200]}...")
+                
+            # 階数
+            floor_match = re.search(r'(\d+)階', text)
+            if floor_match:
+                data['floor'] = self._parse_floor(floor_match.group(1))
+
+            # 賃貸除外
+            if 'url' in data and '/chintai/' in data['url']:
+                return None
+                
+            return data
+            
+        except Exception as e:
+            self.logger.error(f"Failed to parse Livable search listing: {e}")
             return None

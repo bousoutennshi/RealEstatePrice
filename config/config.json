@@ -9,7 +9,23 @@
         "2LDK",
         "3LDK",
         "4LDK"
-      ]
+      ],
+      "athome_url": "https://www.athome.co.jp/mansion/chuko/tokyo/toyosu-st/list/",
+      "rehouse_url": "https://www.rehouse.co.jp/mansionlibrary/ABM0163500/",
+      "livable_url": "https://www.livable.co.jp/mansion/library/000000810513/"
+    },
+    {
+      "id": "ParkTowerHarumi",
+      "name": "パークタワー晴海",
+      "area": "東京都中央区晴海",
+      "layouts": [
+        "1LDK",
+        "2LDK",
+        "3LDK"
+      ],
+      "athome_url": "https://www.athome.co.jp/mansion/chuko/tokyo/list/",
+      "rehouse_url": "https://www.rehouse.co.jp/buy/keyword/?keyword=%E3%83%91%E3%83%BC%E3%82%AF%E3%82%BF%E3%83%AF%E3%83%BC%E6%99%B4%E6%B5%B7&bukkenSb=mansion",
+      "livable_url": "https://www.livable.co.jp/kounyu-chintai/keyword/conditions-type=kounyu-chuko-mansion/?keyword=%E3%83%91%E3%83%BC%E3%82%AF%E3%82%BF%E3%83%AF%E3%83%BC%E6%99%B4%E6%B5%B7"
     }
   ],
   "scraping": {

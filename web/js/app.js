@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (currentProperty) {
                     document.title = currentProperty.name;
                     // ヘッダーのタイトルも更新（存在する場合）
-                    const headerTitle = document.querySelector('.header h1');
+                    const headerTitle = document.querySelector('.title-section h1');
                     if (headerTitle) {
                         headerTitle.textContent = currentProperty.name;
                     }
