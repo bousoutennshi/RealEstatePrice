@@ -171,8 +171,8 @@ class BaseScraper(ABC):
             return None
         
         try:
-            # 数値の抽出（最初の数値を取得）
-            import re
+            # スペースを除去 ("70 . 00" -> "70.00")
+            area_str = area_str.replace(' ', '').replace('　', '')
             match = re.search(r'([0-9]+\.?[0-9]*)', area_str)
             if match:
                 return float(match.group(1))
