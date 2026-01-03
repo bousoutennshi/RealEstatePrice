@@ -119,12 +119,15 @@ class AthomeScraper(BaseScraper):
                 if floor_match:
                     data['floor'] = int(floor_match.group(1))
                 
-                # 全角・半角両対応（１２３４ and 1234、ＬＤＫ and LDK）
-                layout_match = re.search(r'([１２３４1-4][ＬL][ＤD][ＫK]|[１２３４1-4][ＤD][ＫK]|[１２３４1-4][ＫK]|[１２３４1-4]R)', title_text)
+                # 全角・半角両対応（１２３４ and 1234、ＬＤＫ and LDK、ＳＬＤＫ and SLDK）
+                # 2SLDKなどにも対応（Sはサービスルーム）
+                layout_match = re.search(r'([１２３４1-4][ＳS]?[ＬL][ＤD][ＫK]|[１２３４1-4][ＤD][ＫK]|[１２３４1-4][ＫK]|[１２３４1-4]R)', title_text)
                 if layout_match:
                     layout_raw = layout_match.group(1)
                     # 全角を半角に変換
-                    layout_normalized = layout_raw.translate(str.maketrans('１２３４ＬＤＫR', '1234LDKR'))
+                    layout_normalized = layout_raw.translate(str.maketrans('１２３４ＬＤＫＳR', '1234LDKSR'))
+                    # SLDKをLDKに正規化（分類のため）
+                    layout_normalized = layout_normalized.replace('SLDK', 'LDK')
                     data['layout'] = layout_normalized
 
             
