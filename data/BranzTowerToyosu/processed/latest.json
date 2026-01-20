@@ -1,7 +1,7 @@
 {
   "property_name": "ブランズタワー豊洲",
-  "last_updated": "2026-01-19T22:27:25.402962+00:00",
-  "total_listings": 93,
+  "last_updated": "2026-01-20T22:27:57.070427+00:00",
+  "total_listings": 94,
   "listings": [
     {
       "source": "SUUMO",
@@ -14,7 +14,7 @@
       "management_fee": 17300,
       "repair_reserve": 4500,
       "direction": "北東",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "1LDK"
     },
     {
@@ -28,7 +28,7 @@
       "management_fee": 17300,
       "repair_reserve": 4500,
       "direction": "北東",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "1LDK"
     },
     {
@@ -42,7 +42,7 @@
       "management_fee": 17500,
       "repair_reserve": 4600,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "1LDK"
     },
     {
@@ -76,16 +76,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1114691806/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "ブランズタワー豊洲 14階 ２ＬＤＫ",
-      "floor": 14,
-      "layout": "2LDK",
-      "price": 161000000,
-      "age_years": 5,
-      "area": 58.02
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/6988567272/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 48階 ２ＬＤＫ",
       "floor": 48,
@@ -93,6 +83,16 @@
       "price": 428000000,
       "age_years": 5,
       "area": 92.25
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1114691806/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "ブランズタワー豊洲 14階 ２ＬＤＫ",
+      "floor": 14,
+      "layout": "2LDK",
+      "price": 161000000,
+      "age_years": 5,
+      "area": 58.02
     },
     {
       "source": "at home",
@@ -146,16 +146,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1114678506/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "ブランズタワー豊洲 6階 ２ＬＤＫ",
-      "floor": 6,
-      "layout": "2LDK",
-      "price": 178800000,
-      "age_years": 5,
-      "area": 61.87
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/6988463394/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ＶＥＣＳ　ブランズタワー豊洲 23階 ２ＬＤＫ",
       "floor": 23,
@@ -163,6 +153,16 @@
       "price": 298000000,
       "age_years": 5,
       "area": 85.57
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1114678506/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "ブランズタワー豊洲 6階 ２ＬＤＫ",
+      "floor": 6,
+      "layout": "2LDK",
+      "price": 178800000,
+      "age_years": 5,
+      "area": 61.87
     },
     {
       "source": "at home",
@@ -186,16 +186,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1015066191/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "ブランズタワー豊洲 12階 ２ＬＤＫ",
-      "floor": 12,
-      "layout": "2LDK",
-      "price": 172800000,
-      "age_years": 5,
-      "area": 61.15
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1015066291/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 40階 ３ＬＤＫ",
       "floor": 40,
@@ -203,6 +193,16 @@
       "price": 265000000,
       "age_years": 5,
       "area": 73.49
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1015066191/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "ブランズタワー豊洲 12階 ２ＬＤＫ",
+      "floor": 12,
+      "layout": "2LDK",
+      "price": 172800000,
+      "age_years": 5,
+      "area": 61.15
     },
     {
       "source": "at home",
@@ -236,16 +236,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1131368017/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "ブランズタワー豊洲 42階 ３ＬＤＫ",
-      "floor": 42,
-      "layout": "3LDK",
-      "price": 245000000,
-      "age_years": 5,
-      "area": 73.49
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1008250791/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 15階 ３ＬＤＫ",
       "floor": 15,
@@ -253,6 +243,16 @@
       "price": 275000000,
       "age_years": 5,
       "area": 75.88
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1131368017/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "ブランズタワー豊洲 42階 ３ＬＤＫ",
+      "floor": 42,
+      "layout": "3LDK",
+      "price": 245000000,
+      "age_years": 5,
+      "area": 73.49
     },
     {
       "source": "at home",
@@ -346,16 +346,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1109293303/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
-      "floor": 23,
-      "layout": "2LDK",
-      "price": 298000000,
-      "age_years": 5,
-      "area": 85.57
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1150660314/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 15階 ３ＬＤＫ",
       "floor": 15,
@@ -366,7 +356,7 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1150372514/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "url": "https://www.athome.co.jp/mansion/1109293303/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
       "floor": 23,
       "layout": "2LDK",
@@ -377,6 +367,16 @@
     {
       "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1010832391/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
+      "floor": 23,
+      "layout": "2LDK",
+      "price": 298000000,
+      "age_years": 5,
+      "area": 85.57
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1150372514/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
       "floor": 23,
       "layout": "2LDK",
@@ -494,7 +494,7 @@
       "management_fee": 23200,
       "repair_reserve": 8000,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -536,7 +536,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年1月15日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -550,7 +550,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -564,7 +564,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -578,7 +578,7 @@
       "management_fee": 23000,
       "repair_reserve": 6000,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -592,7 +592,7 @@
       "management_fee": 22500,
       "repair_reserve": 5800,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -606,7 +606,7 @@
       "management_fee": 24400,
       "repair_reserve": 6300,
       "direction": "南東",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -620,7 +620,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -662,7 +662,7 @@
       "management_fee": 24700,
       "repair_reserve": 6300,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -676,7 +676,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -690,7 +690,21 @@
       "management_fee": 25900,
       "repair_reserve": 6700,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "豊洲５（豊洲駅） 1億8880万円",
+      "price": 188800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_20014124/",
+      "area": 63.0,
+      "floor": 39,
+      "age_years": 4,
+      "management_fee": 25100,
+      "repair_reserve": 6500,
+      "direction": "北東",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -718,21 +732,7 @@
       "management_fee": 29400,
       "repair_reserve": 7600,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "～駅徒歩5分の築浅好立地～23階角住戸×ペット飼育可現地見学可♪",
-      "price": 298000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78856481/",
-      "area": 85.57,
-      "floor": 23,
-      "age_years": 4,
-      "management_fee": 34200,
-      "repair_reserve": 8800,
-      "direction": "北東",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -740,6 +740,20 @@
       "title": "豊洲５（豊洲駅） 2億9800万円",
       "price": 298000000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_77071430/",
+      "area": 85.57,
+      "floor": 23,
+      "age_years": 4,
+      "management_fee": 34200,
+      "repair_reserve": 8800,
+      "direction": "北東",
+      "posted_date": "2026年1月20日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "～駅徒歩5分の築浅好立地～23階角住戸×ペット飼育可現地見学可♪",
+      "price": 298000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78856481/",
       "area": 85.57,
       "floor": 23,
       "age_years": 4,
@@ -761,6 +775,34 @@
       "repair_reserve": 8800,
       "direction": "南東",
       "posted_date": "2026年1月19日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "豊洲５（豊洲駅） 2億9800万円",
+      "price": 298000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78998606/",
+      "area": 85.57,
+      "floor": 23,
+      "age_years": 4,
+      "management_fee": 34200,
+      "repair_reserve": 8800,
+      "direction": "南東",
+      "posted_date": "2026年1月19日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "■免震構造採用、総戸数1152戸の大規模タワーマンション",
+      "price": 298000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78940413/",
+      "area": 85.57,
+      "floor": 23,
+      "age_years": 4,
+      "management_fee": 34200,
+      "repair_reserve": 8800,
+      "direction": "北東",
+      "posted_date": "2026年1月15日",
       "layout": "2LDK"
     },
     {
@@ -793,34 +835,6 @@
     },
     {
       "source": "SUUMO",
-      "title": "■免震構造採用、総戸数1152戸の大規模タワーマンション",
-      "price": 298000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78940413/",
-      "area": 85.57,
-      "floor": 23,
-      "age_years": 4,
-      "management_fee": 34200,
-      "repair_reserve": 8800,
-      "direction": "北東",
-      "posted_date": "2026年1月15日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "豊洲５（豊洲駅） 2億9800万円",
-      "price": 298000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78998606/",
-      "area": 85.57,
-      "floor": 23,
-      "age_years": 4,
-      "management_fee": 34200,
-      "repair_reserve": 8800,
-      "direction": "南東",
-      "posted_date": "2026年1月19日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
       "title": "豊洲駅徒歩5分！48階建23階角部屋・眺望良好の2LDK",
       "price": 298000000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_77109616/",
@@ -830,7 +844,7 @@
       "management_fee": 34200,
       "repair_reserve": 8800,
       "direction": "北東",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "2LDK"
     },
     {
@@ -937,7 +951,7 @@
       "management_fee": 29300,
       "repair_reserve": 7600,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "3LDK"
     },
     {
@@ -965,7 +979,7 @@
       "management_fee": 30200,
       "repair_reserve": 7800,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "3LDK"
     },
     {
@@ -979,7 +993,7 @@
       "management_fee": 29300,
       "repair_reserve": 7600,
       "direction": "南西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "3LDK"
     },
     {
@@ -993,7 +1007,7 @@
       "management_fee": 33800,
       "repair_reserve": 8700,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "3LDK"
     },
     {
@@ -1007,7 +1021,7 @@
       "management_fee": 33800,
       "repair_reserve": 8700,
       "direction": "北西",
-      "posted_date": "2026年1月19日",
+      "posted_date": "2026年1月20日",
       "layout": "3LDK"
     },
     {
