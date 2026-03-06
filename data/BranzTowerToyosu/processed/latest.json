@@ -1,7 +1,7 @@
 {
   "property_name": "ブランズタワー豊洲",
-  "last_updated": "2026-03-05T22:37:02.849707+00:00",
-  "total_listings": 78,
+  "last_updated": "2026-03-06T22:33:24.367960+00:00",
+  "total_listings": 79,
   "listings": [
     {
       "source": "SUUMO",
@@ -14,7 +14,7 @@
       "management_fee": 17500,
       "repair_reserve": 4600,
       "direction": "北西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "1LDK"
     },
     {
@@ -288,7 +288,7 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1150372514/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "url": "https://www.athome.co.jp/mansion/1010832391/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
       "floor": 23,
       "layout": "2LDK",
@@ -298,7 +298,7 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1010832391/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "url": "https://www.athome.co.jp/mansion/1150372514/?DOWN=2&BKLISTID=002LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ブランズタワー豊洲 23階 ２ＬＤＫ",
       "floor": 23,
       "layout": "2LDK",
@@ -380,7 +380,7 @@
       "management_fee": 25100,
       "repair_reserve": 6500,
       "direction": "北東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -394,7 +394,7 @@
       "management_fee": 34200,
       "repair_reserve": 8800,
       "direction": "北東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -422,7 +422,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年2月27日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -450,7 +450,7 @@
       "management_fee": 23000,
       "repair_reserve": 6000,
       "direction": "北西",
-      "posted_date": "2026年3月3日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -464,7 +464,7 @@
       "management_fee": 22800,
       "repair_reserve": 5800,
       "direction": "北東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -478,7 +478,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -492,7 +492,7 @@
       "management_fee": 22500,
       "repair_reserve": 5800,
       "direction": "北西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -506,7 +506,7 @@
       "management_fee": 24400,
       "repair_reserve": 6300,
       "direction": "南東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -520,7 +520,35 @@
       "management_fee": 24400,
       "repair_reserve": 6300,
       "direction": "南東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "豊洲５（豊洲駅） 1億7800万円",
+      "price": 178000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78528731/",
+      "area": 58.02,
+      "floor": 29,
+      "age_years": 4,
+      "management_fee": 23200,
+      "repair_reserve": 6000,
+      "direction": "南西",
+      "posted_date": "2026年3月6日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "◆48階建ての免震タワーレジデンス◆24時間有人管理×ダブルオートロック",
+      "price": 178000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_20208071/",
+      "area": 58.02,
+      "floor": 29,
+      "age_years": 4,
+      "management_fee": 23200,
+      "repair_reserve": 6000,
+      "direction": "南西",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -541,34 +569,6 @@
       "source": "SUUMO",
       "title": "豊洲５（豊洲駅） 1億7800万円",
       "price": 178000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78528731/",
-      "area": 58.02,
-      "floor": 29,
-      "age_years": 4,
-      "management_fee": 23200,
-      "repair_reserve": 6000,
-      "direction": "南西",
-      "posted_date": "2026年3月5日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "◆48階建ての免震タワーレジデンス◆24時間有人管理×ダブルオートロック",
-      "price": 178000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_20208071/",
-      "area": 58.02,
-      "floor": 29,
-      "age_years": 4,
-      "management_fee": 23200,
-      "repair_reserve": 6000,
-      "direction": "南西",
-      "posted_date": "2026年3月2日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "豊洲５（豊洲駅） 1億7800万円",
-      "price": 178000000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78802258/",
       "area": 58.02,
       "floor": 29,
@@ -576,7 +576,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -604,7 +604,7 @@
       "management_fee": 23200,
       "repair_reserve": 6000,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -618,7 +618,7 @@
       "management_fee": 24700,
       "repair_reserve": 6300,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -632,7 +632,7 @@
       "management_fee": 24700,
       "repair_reserve": 6300,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -646,7 +646,21 @@
       "management_fee": 25900,
       "repair_reserve": 6700,
       "direction": "北西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "33階部分・北東向きの2LDKペット飼育可(規約有)",
+      "price": 185000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78907467/",
+      "area": 63.0,
+      "floor": 33,
+      "age_years": 4,
+      "management_fee": 25100,
+      "repair_reserve": 6500,
+      "direction": "北東",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -660,7 +674,7 @@
       "management_fee": 25100,
       "repair_reserve": 6500,
       "direction": "北東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -674,7 +688,7 @@
       "management_fee": 25900,
       "repair_reserve": 6700,
       "direction": "北西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -688,7 +702,7 @@
       "management_fee": 29400,
       "repair_reserve": 7600,
       "direction": "北西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -702,7 +716,7 @@
       "management_fee": 34200,
       "repair_reserve": 8800,
       "direction": "北東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "2LDK"
     },
     {
@@ -717,6 +731,20 @@
       "repair_reserve": 8800,
       "direction": "南東",
       "posted_date": "2026年3月5日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "豊洲５（豊洲駅） 2億9800万円",
+      "price": 298000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78998606/",
+      "area": 85.57,
+      "floor": 23,
+      "age_years": 4,
+      "management_fee": 34200,
+      "repair_reserve": 8800,
+      "direction": "南東",
+      "posted_date": "2026年3月1日",
       "layout": "2LDK"
     },
     {
@@ -745,20 +773,6 @@
       "repair_reserve": 8800,
       "direction": "南東",
       "posted_date": "2026年3月5日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "豊洲５（豊洲駅） 2億9800万円",
-      "price": 298000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78998606/",
-      "area": 85.57,
-      "floor": 23,
-      "age_years": 4,
-      "management_fee": 34200,
-      "repair_reserve": 8800,
-      "direction": "南東",
-      "posted_date": "2026年3月1日",
       "layout": "2LDK"
     },
     {
@@ -824,12 +838,12 @@
       "management_fee": 29300,
       "repair_reserve": 7600,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "3LDK"
     },
     {
       "source": "SUUMO",
-      "title": "2月22日・23日予約制見学会実施！37階南東向きのオーシャンビュー！",
+      "title": "現況空き部屋見学できます！37階南東向きのオーシャンビュー！",
       "price": 240000000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_koto/nc_78715365/",
       "area": 76.91,
@@ -838,7 +852,7 @@
       "management_fee": 30700,
       "repair_reserve": 7900,
       "direction": "南東",
-      "posted_date": "2026年2月28日",
+      "posted_date": "2026年3月6日",
       "layout": "3LDK"
     },
     {
@@ -852,7 +866,7 @@
       "management_fee": 30200,
       "repair_reserve": 7800,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "3LDK"
     },
     {
@@ -866,7 +880,7 @@
       "management_fee": 29300,
       "repair_reserve": 7600,
       "direction": "南西",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "3LDK"
     },
     {
@@ -880,7 +894,7 @@
       "management_fee": 34200,
       "repair_reserve": 8800,
       "direction": "南東",
-      "posted_date": "2026年3月5日",
+      "posted_date": "2026年3月6日",
       "layout": "3LDK"
     },
     {
