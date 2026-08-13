@@ -1,8 +1,78 @@
 {
   "property_name": "パークタワー晴海",
-  "last_updated": "2026-08-12T22:48:15.709875+00:00",
-  "total_listings": 186,
+  "last_updated": "2026-08-13T22:49:08.629023+00:00",
+  "total_listings": 191,
   "listings": [
+    {
+      "source": "SUUMO",
+      "title": "■39階北向きスカイツリービュー■室内リフォーム履歴あり■共用部が充実",
+      "price": 103900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21038422/",
+      "area": 45.06,
+      "floor": 39,
+      "age_years": 6,
+      "management_fee": 14640,
+      "repair_reserve": 7660,
+      "direction": "北",
+      "posted_date": "2026年8月13日",
+      "layout": "1LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 9380万円",
+      "price": 93800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21410185/",
+      "area": 43.33,
+      "floor": 25,
+      "age_years": 6,
+      "management_fee": 14080,
+      "repair_reserve": 7370,
+      "direction": "北",
+      "posted_date": "2026年8月13日",
+      "layout": "1LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 9700万円",
+      "price": 97000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20770800/",
+      "area": 43.33,
+      "floor": 11,
+      "age_years": 6,
+      "management_fee": 14080,
+      "repair_reserve": 7370,
+      "direction": "北",
+      "posted_date": "2026年8月12日",
+      "layout": "1LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 9980万円",
+      "price": 99800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21411732/",
+      "area": 42.53,
+      "floor": 45,
+      "age_years": 6,
+      "management_fee": 13820,
+      "repair_reserve": 7230,
+      "direction": "北",
+      "posted_date": "2026年8月13日",
+      "layout": "1LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 9980万円",
+      "price": 99800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21468502/",
+      "area": 42.53,
+      "floor": 45,
+      "age_years": 6,
+      "management_fee": 13820,
+      "repair_reserve": 7230,
+      "direction": "北",
+      "posted_date": "2026年8月13日",
+      "layout": "1LDK"
+    },
     {
       "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1020434491/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
@@ -12,16 +82,6 @@
       "price": 99800000,
       "age_years": 7,
       "area": 42.53
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1102703714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 27階 ３ＬＤＫ",
-      "floor": 27,
-      "layout": "3LDK",
-      "price": 199800000,
-      "age_years": 7,
-      "area": 82.27
     },
     {
       "source": "at home",
@@ -45,13 +105,23 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1152741714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 12階 ２ＬＤＫ",
-      "floor": 12,
-      "layout": "2LDK",
-      "price": 248000000,
+      "url": "https://www.athome.co.jp/mansion/1102703714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 27階 ３ＬＤＫ",
+      "floor": 27,
+      "layout": "3LDK",
+      "price": 199800000,
       "age_years": 7,
-      "area": 78.67
+      "area": 82.27
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1019189691/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 10階 ３ＬＤＫ",
+      "floor": 10,
+      "layout": "3LDK",
+      "price": 146000000,
+      "age_years": 7,
+      "area": 71.65
     },
     {
       "source": "at home",
@@ -65,13 +135,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1019189691/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 10階 ３ＬＤＫ",
-      "floor": 10,
-      "layout": "3LDK",
-      "price": 146000000,
+      "url": "https://www.athome.co.jp/mansion/1152741714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 12階 ２ＬＤＫ",
+      "floor": 12,
+      "layout": "2LDK",
+      "price": 248000000,
       "age_years": 7,
-      "area": 71.65
+      "area": 78.67
     },
     {
       "source": "at home",
@@ -135,16 +205,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1020226191/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 26階 ２ＬＤＫ",
-      "floor": 26,
-      "layout": "2LDK",
-      "price": 149800000,
-      "age_years": 7,
-      "area": 63.1
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1165348205/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 9階 ３ＬＤＫ",
       "floor": 9,
@@ -152,6 +212,16 @@
       "price": 134900000,
       "age_years": 7,
       "area": 67.82
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1020226191/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 26階 ２ＬＤＫ",
+      "floor": 26,
+      "layout": "2LDK",
+      "price": 149800000,
+      "age_years": 7,
+      "area": 63.1
     },
     {
       "source": "at home",
@@ -185,16 +255,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1149303913/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 3階 ４ＬＤＫ",
-      "floor": 3,
-      "layout": "4LDK",
-      "price": 258000000,
-      "age_years": 7,
-      "area": 83.31
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1110268218/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "ＬＤＫ１６．５帖「パークタワー晴海」晴海Ｓｅｌｅｃｔｉｏｎ 27階 ３ＬＤＫ",
       "floor": 27,
@@ -202,6 +262,16 @@
       "price": 199800000,
       "age_years": 7,
       "area": 82.27
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1149303913/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 3階 ４ＬＤＫ",
+      "floor": 3,
+      "layout": "4LDK",
+      "price": 258000000,
+      "age_years": 7,
+      "area": 83.31
     },
     {
       "source": "at home",
@@ -215,26 +285,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1149445513/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 14階 ２ＬＤＫ",
-      "floor": 14,
-      "layout": "2LDK",
-      "price": 188900000,
-      "age_years": 7,
-      "area": 82.27
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1196906924/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 46階 ２ＬＤＫ",
-      "floor": 46,
-      "layout": "2LDK",
-      "price": 168000000,
-      "age_years": 7,
-      "area": 69.25
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1149138513/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 46階 ２ＳＬＤＫ",
       "floor": 46,
@@ -242,6 +292,16 @@
       "price": 194800000,
       "age_years": 7,
       "area": 78.59
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1149445513/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 14階 ２ＬＤＫ",
+      "floor": 14,
+      "layout": "2LDK",
+      "price": 188900000,
+      "age_years": 7,
+      "area": 82.27
     },
     {
       "source": "at home",
@@ -255,6 +315,16 @@
     },
     {
       "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1196906924/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 46階 ２ＬＤＫ",
+      "floor": 46,
+      "layout": "2LDK",
+      "price": 168000000,
+      "age_years": 7,
+      "area": 69.25
+    },
+    {
+      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1195394821/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 25階 １ＬＤＫ",
       "floor": 25,
@@ -262,16 +332,6 @@
       "price": 93800000,
       "age_years": 7,
       "area": 43.33
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1100008514/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 14階 ２ＬＤＫ",
-      "floor": 14,
-      "layout": "2LDK",
-      "price": 178000000,
-      "age_years": 7,
-      "area": 81.64
     },
     {
       "source": "at home",
@@ -285,6 +345,16 @@
     },
     {
       "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1100008514/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 14階 ２ＬＤＫ",
+      "floor": 14,
+      "layout": "2LDK",
+      "price": 178000000,
+      "age_years": 7,
+      "area": 81.64
+    },
+    {
+      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1184601230/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 10階 ３ＬＤＫ",
       "floor": 10,
@@ -292,26 +362,6 @@
       "price": 177000000,
       "age_years": 7,
       "area": 78.59
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1184664030/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 41階 ３ＬＤＫ",
-      "floor": 41,
-      "layout": "3LDK",
-      "price": 150000000,
-      "age_years": 7,
-      "area": 69.39
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1011308091/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 4階 ２ＬＤＫ",
-      "floor": 4,
-      "layout": "2LDK",
-      "price": 157000000,
-      "age_years": 7,
-      "area": 72.86
     },
     {
       "source": "at home",
@@ -325,13 +375,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1114786906/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 9階 ３ＬＤＫ",
-      "floor": 9,
+      "url": "https://www.athome.co.jp/mansion/1184664030/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 41階 ３ＬＤＫ",
+      "floor": 41,
       "layout": "3LDK",
-      "price": 178000000,
+      "price": 150000000,
       "age_years": 7,
-      "area": 70.84
+      "area": 69.39
     },
     {
       "source": "at home",
@@ -345,13 +395,23 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1117520506/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 41階 ３ＬＤＫ",
-      "floor": 41,
-      "layout": "3LDK",
-      "price": 164800000,
+      "url": "https://www.athome.co.jp/mansion/1011308091/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 4階 ２ＬＤＫ",
+      "floor": 4,
+      "layout": "2LDK",
+      "price": 157000000,
       "age_years": 7,
-      "area": 71.42
+      "area": 72.86
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1114786906/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 9階 ３ＬＤＫ",
+      "floor": 9,
+      "layout": "3LDK",
+      "price": 178000000,
+      "age_years": 7,
+      "area": 70.84
     },
     {
       "source": "at home",
@@ -362,6 +422,16 @@
       "price": 188000000,
       "age_years": 7,
       "area": 82.05
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1117520506/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 41階 ３ＬＤＫ",
+      "floor": 41,
+      "layout": "3LDK",
+      "price": 164800000,
+      "age_years": 7,
+      "area": 71.42
     },
     {
       "source": "at home",
@@ -395,33 +465,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1151594714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 22階 ３ＬＤＫ",
-      "floor": 22,
-      "layout": "3LDK",
-      "price": 152900000,
+      "url": "https://www.athome.co.jp/mansion/1199690613/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 46階 ２ＬＤＫ",
+      "floor": 46,
+      "layout": "2LDK",
+      "price": 168000000,
       "age_years": 7,
-      "area": 72.94
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/6988037405/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 27階 ３ＬＤＫ",
-      "floor": 27,
-      "layout": "3LDK",
-      "price": 125000000,
-      "age_years": 7,
-      "area": 71.8
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1012981091/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 6階 ３ＬＤＫ",
-      "floor": 6,
-      "layout": "3LDK",
-      "price": 228000000,
-      "age_years": 7,
-      "area": 82.85
+      "area": 69.25
     },
     {
       "source": "at home",
@@ -435,23 +485,33 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1199690613/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 46階 ２ＬＤＫ",
-      "floor": 46,
-      "layout": "2LDK",
-      "price": 168000000,
+      "url": "https://www.athome.co.jp/mansion/6988037405/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 27階 ３ＬＤＫ",
+      "floor": 27,
+      "layout": "3LDK",
+      "price": 125000000,
       "age_years": 7,
-      "area": 69.25
+      "area": 71.8
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/6991180455/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 36階 ２ＬＤＫ",
-      "floor": 36,
-      "layout": "2LDK",
-      "price": 154900000,
+      "url": "https://www.athome.co.jp/mansion/1151594714/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 22階 ３ＬＤＫ",
+      "floor": 22,
+      "layout": "3LDK",
+      "price": 152900000,
       "age_years": 7,
-      "area": 68.97
+      "area": 72.94
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1012981091/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 6階 ３ＬＤＫ",
+      "floor": 6,
+      "layout": "3LDK",
+      "price": 228000000,
+      "age_years": 7,
+      "area": 82.85
     },
     {
       "source": "at home",
@@ -475,13 +535,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1014667191/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 10階 ３ＬＤＫ",
-      "floor": 10,
-      "layout": "3LDK",
-      "price": 177000000,
+      "url": "https://www.athome.co.jp/mansion/6991180455/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 36階 ２ＬＤＫ",
+      "floor": 36,
+      "layout": "2LDK",
+      "price": 154900000,
       "age_years": 7,
-      "area": 78.59
+      "area": 68.97
     },
     {
       "source": "at home",
@@ -492,6 +552,16 @@
       "price": 152900000,
       "age_years": 7,
       "area": 72.94
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1014667191/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 10階 ３ＬＤＫ",
+      "floor": 10,
+      "layout": "3LDK",
+      "price": 177000000,
+      "age_years": 7,
+      "area": 78.59
     },
     {
       "source": "at home",
@@ -605,16 +675,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1151890128/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 21階 ４ＬＤＫ",
-      "floor": 21,
-      "layout": "4LDK",
-      "price": 246000000,
-      "age_years": 7,
-      "area": 89.95
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1199817113/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 26階 ３ＬＤＫ",
       "floor": 26,
@@ -625,13 +685,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1110119018/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "２６階部分「パークタワー晴海」晴海Ｓｅｌｅｃｔｉｏｎ 26階 ３ＬＤＫ",
-      "floor": 26,
-      "layout": "3LDK",
-      "price": 149800000,
+      "url": "https://www.athome.co.jp/mansion/1151890128/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 21階 ４ＬＤＫ",
+      "floor": 21,
+      "layout": "4LDK",
+      "price": 246000000,
       "age_years": 7,
-      "area": 72.77
+      "area": 89.95
     },
     {
       "source": "at home",
@@ -642,6 +702,16 @@
       "price": 199800000,
       "age_years": 7,
       "area": 82.27
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1110119018/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "２６階部分「パークタワー晴海」晴海Ｓｅｌｅｃｔｉｏｎ 26階 ３ＬＤＫ",
+      "floor": 26,
+      "layout": "3LDK",
+      "price": 149800000,
+      "age_years": 7,
+      "area": 72.77
     },
     {
       "source": "at home",
@@ -665,16 +735,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/6990202797/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 26階 ３ＬＤＫ",
-      "floor": 26,
-      "layout": "3LDK",
-      "price": 208000000,
-      "age_years": 7,
-      "area": 78.67
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1016358491/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 20階 ３ＬＤＫ",
       "floor": 20,
@@ -682,6 +742,16 @@
       "price": 131700000,
       "age_years": 7,
       "area": 71.65
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/6990202797/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 26階 ３ＬＤＫ",
+      "floor": 26,
+      "layout": "3LDK",
+      "price": 208000000,
+      "age_years": 7,
+      "area": 78.67
     },
     {
       "source": "at home",
@@ -735,21 +805,31 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1117400106/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 25階 ３ＬＤＫ",
-      "floor": 25,
-      "layout": "3LDK",
-      "price": 149000000,
-      "age_years": 7,
-      "area": 70.84
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1199475413/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 29階 ３ＬＤＫ",
       "floor": 29,
       "layout": "3LDK",
       "price": 188000000,
+      "age_years": 7,
+      "area": 70.84
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1066714388/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 12階 ３ＬＤＫ",
+      "floor": 12,
+      "layout": "3LDK",
+      "price": 149800000,
+      "age_years": 7,
+      "area": 71.65
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1117400106/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 25階 ３ＬＤＫ",
+      "floor": 25,
+      "layout": "3LDK",
+      "price": 149000000,
       "age_years": 7,
       "area": 70.84
     },
@@ -775,13 +855,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1196602324/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 45階 ２ＬＤＫ",
-      "floor": 45,
-      "layout": "2LDK",
-      "price": 175000000,
+      "url": "https://www.athome.co.jp/mansion/1165604126/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 12階 ３ＬＤＫ",
+      "floor": 12,
+      "layout": "3LDK",
+      "price": 149800000,
       "age_years": 7,
-      "area": 70.84
+      "area": 71.65
     },
     {
       "source": "at home",
@@ -795,13 +875,13 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1165604126/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 12階 ３ＬＤＫ",
-      "floor": 12,
-      "layout": "3LDK",
-      "price": 149800000,
+      "url": "https://www.athome.co.jp/mansion/1196602324/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 45階 ２ＬＤＫ",
+      "floor": 45,
+      "layout": "2LDK",
+      "price": 175000000,
       "age_years": 7,
-      "area": 71.65
+      "area": 70.84
     },
     {
       "source": "at home",
@@ -835,16 +915,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1066697688/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 12階 ３ＬＤＫ",
-      "floor": 12,
-      "layout": "3LDK",
-      "price": 149800000,
-      "age_years": 7,
-      "area": 71.65
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1127989505/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 30階 ２ＬＤＫ",
       "floor": 30,
@@ -865,16 +935,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1164693526/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 12階 ３ＬＤＫ",
-      "floor": 12,
-      "layout": "3LDK",
-      "price": 176800000,
-      "age_years": 7,
-      "area": 82.27
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1199638813/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 14階 ２ＬＤＫ",
       "floor": 14,
@@ -882,6 +942,16 @@
       "price": 178000000,
       "age_years": 7,
       "area": 81.64
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1164693526/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 12階 ３ＬＤＫ",
+      "floor": 12,
+      "layout": "3LDK",
+      "price": 176800000,
+      "age_years": 7,
+      "area": 82.27
     },
     {
       "source": "at home",
@@ -1010,7 +1080,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1038,7 +1108,7 @@
       "management_fee": 25540,
       "repair_reserve": 13360,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1108,7 +1178,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1122,7 +1192,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1136,7 +1206,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1192,7 +1262,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1206,7 +1276,7 @@
       "management_fee": 23340,
       "repair_reserve": 12210,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1234,7 +1304,7 @@
       "management_fee": 23680,
       "repair_reserve": 12390,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1248,7 +1318,7 @@
       "management_fee": 22770,
       "repair_reserve": 11910,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1276,21 +1346,7 @@
       "management_fee": 22420,
       "repair_reserve": 11720,
       "direction": "東",
-      "posted_date": "2026年8月12日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "晴海２（豊洲駅） 1億6800万円",
-      "price": 168000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21134702/",
-      "area": 69.25,
-      "floor": 46,
-      "age_years": 6,
-      "management_fee": 22510,
-      "repair_reserve": 11770,
-      "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1309,6 +1365,20 @@
     },
     {
       "source": "SUUMO",
+      "title": "晴海２（豊洲駅） 1億6800万円",
+      "price": 168000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21134702/",
+      "area": 69.25,
+      "floor": 46,
+      "age_years": 6,
+      "management_fee": 22510,
+      "repair_reserve": 11770,
+      "direction": "北",
+      "posted_date": "2026年8月13日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
       "title": "晴海２（月島駅） 1億7000万円",
       "price": 170000000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21428691/",
@@ -1318,7 +1388,7 @@
       "management_fee": 23740,
       "repair_reserve": 12420,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
@@ -1374,21 +1444,21 @@
       "management_fee": 25570,
       "repair_reserve": 13370,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "2LDK"
     },
     {
       "source": "SUUMO",
-      "title": "◆Willows Presents■南東角部屋■ペット飼育可(細則有)",
+      "title": "～３４階部分/南東角部屋/２LDK＋WIC＋S/２路線利用可～",
       "price": 187500000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21145009/",
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21408741/",
       "area": 82.85,
       "floor": 34,
       "age_years": 6,
       "management_fee": 26930,
       "repair_reserve": 14080,
       "direction": "南東",
-      "posted_date": "2026年8月4日",
+      "posted_date": "2026年8月9日",
       "layout": "2LDK"
     },
     {
@@ -1560,7 +1630,7 @@
       "management_fee": 22550,
       "repair_reserve": 11800,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1574,7 +1644,7 @@
       "management_fee": 26740,
       "repair_reserve": 9870,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1630,7 +1700,7 @@
       "management_fee": 26740,
       "repair_reserve": 13990,
       "direction": "北西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1700,7 +1770,21 @@
       "management_fee": 23340,
       "repair_reserve": 12210,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億2590万円",
+      "price": 125900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21006370/",
+      "area": 71.8,
+      "floor": 7,
+      "age_years": 6,
+      "management_fee": 23340,
+      "repair_reserve": 12210,
+      "direction": "西",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1719,20 +1803,6 @@
     },
     {
       "source": "SUUMO",
-      "title": "晴海２（月島駅） 1億2590万円",
-      "price": 125900000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21006370/",
-      "area": 71.8,
-      "floor": 7,
-      "age_years": 6,
-      "management_fee": 23340,
-      "repair_reserve": 12210,
-      "direction": "西",
-      "posted_date": "2026年8月12日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
       "title": "晴海２（月島駅） 1億3170万円",
       "price": 131700000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_79074465/",
@@ -1742,7 +1812,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1756,7 +1826,7 @@
       "management_fee": 23820,
       "repair_reserve": 12460,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1770,7 +1840,7 @@
       "management_fee": 22910,
       "repair_reserve": 11990,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1784,7 +1854,7 @@
       "management_fee": 23680,
       "repair_reserve": 12390,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1798,7 +1868,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1812,21 +1882,21 @@
       "management_fee": 23020,
       "repair_reserve": 12040,
       "direction": "南",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
       "source": "SUUMO",
-      "title": "即日内見可能！随時お問い合わせ受付中！（直通：070-8351-5950）",
+      "title": "晴海２（豊洲駅） 1億4980万円",
       "price": 149800000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21364242/",
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21491730/",
       "area": 71.65,
       "floor": 12,
       "age_years": 6,
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1854,21 +1924,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年8月12日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "晴海２（月島駅） 1億5290万円",
-      "price": 152900000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_78534635/",
-      "area": 72.94,
-      "floor": 22,
-      "age_years": 6,
-      "management_fee": 23710,
-      "repair_reserve": 12400,
-      "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1882,7 +1938,21 @@
       "management_fee": 23710,
       "repair_reserve": 12400,
       "direction": "東",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億5290万円",
+      "price": 152900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_78534635/",
+      "area": 72.94,
+      "floor": 22,
+      "age_years": 6,
+      "management_fee": 23710,
+      "repair_reserve": 12400,
+      "direction": "東",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1910,7 +1980,7 @@
       "management_fee": 23210,
       "repair_reserve": 12140,
       "direction": "西",
-      "posted_date": "2026年8月6日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1924,7 +1994,7 @@
       "management_fee": 23210,
       "repair_reserve": 12140,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -1938,21 +2008,21 @@
       "management_fee": 23210,
       "repair_reserve": 12140,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
       "source": "SUUMO",
-      "title": "憧れの46階パノラマビュー！富士山を望む開放感。共用施設充実の免震タワー",
+      "title": "充実した共用部♪リビング床暖房付き！38階のため日当たり・眺望良好！",
       "price": 153800000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20272886/",
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20964220/",
       "area": 71.42,
-      "floor": 46,
+      "floor": 38,
       "age_years": 6,
       "management_fee": 23210,
       "repair_reserve": 12140,
       "direction": "西",
-      "posted_date": "2026年8月12日",
+      "posted_date": "2026年8月13日",
       "layout": "3LDK"
     },
     {
@@ -2140,19 +2210,6 @@
     {
       "source": "Rehouse",
       "title": "パークタワー晴海",
-      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FSFBGA0E/",
-      "price": 199800000,
-      "layout": "3LDK",
-      "area": 82.27,
-      "floor": 27,
-      "age_years": 6,
-      "direction": "北",
-      "management_fee": 26740,
-      "repair_reserve": 13990
-    },
-    {
-      "source": "Rehouse",
-      "title": "パークタワー晴海",
       "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FSFBGA0A/",
       "price": 198000000,
       "layout": "3LDK",
@@ -2188,6 +2245,19 @@
       "direction": "東",
       "management_fee": 23710,
       "repair_reserve": 12400
+    },
+    {
+      "source": "Rehouse",
+      "title": "パークタワー晴海",
+      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/F1FARA0D/",
+      "price": 177000000,
+      "layout": "3LDK",
+      "area": 78.59,
+      "floor": 10,
+      "age_years": 6,
+      "direction": "南",
+      "management_fee": 25540,
+      "repair_reserve": 13360
     }
   ]
 }
