@@ -1,7 +1,7 @@
 {
   "property_name": "パークタワー晴海",
-  "last_updated": "2026-09-10T23:54:55.895196+00:00",
-  "total_listings": 194,
+  "last_updated": "2026-09-12T00:02:16.414269+00:00",
+  "total_listings": 191,
   "listings": [
     {
       "source": "SUUMO",
@@ -14,7 +14,21 @@
       "management_fee": 14080,
       "repair_reserve": 7370,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
+      "layout": "1LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "空室　即日内覧可能♪  高層階　１LDK 共有施設充実！",
+      "price": 89800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21508468/",
+      "area": 45.06,
+      "floor": 34,
+      "age_years": 6,
+      "management_fee": 14640,
+      "repair_reserve": 7660,
+      "direction": "北",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -28,7 +42,7 @@
       "management_fee": 14640,
       "repair_reserve": 7660,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -42,7 +56,7 @@
       "management_fee": 14080,
       "repair_reserve": 7370,
       "direction": "北",
-      "posted_date": "2026年9月8日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -56,21 +70,7 @@
       "management_fee": 14640,
       "repair_reserve": 7660,
       "direction": "北",
-      "posted_date": "2026年9月9日",
-      "layout": "1LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "空室　即日内覧可能♪  高層階　１LDK 共有施設充実！",
-      "price": 97500000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21508468/",
-      "area": 45.06,
-      "floor": 34,
-      "age_years": 6,
-      "management_fee": 14640,
-      "repair_reserve": 7660,
-      "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -84,7 +84,7 @@
       "management_fee": 14640,
       "repair_reserve": 7660,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -98,7 +98,7 @@
       "management_fee": 13820,
       "repair_reserve": 7230,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
     },
     {
@@ -112,8 +112,17 @@
       "management_fee": 13820,
       "repair_reserve": 7230,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "1LDK"
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/6991354728/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 1213号室 ３ＬＤＫ",
+      "layout": "3LDK",
+      "price": 139800000,
+      "age_years": 7,
+      "area": 71.65
     },
     {
       "source": "at home",
@@ -397,16 +406,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1148398814/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 43階 ３ＬＤＫ",
-      "floor": 43,
-      "layout": "3LDK",
-      "price": 179000000,
-      "age_years": 7,
-      "area": 88.49
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1184601230/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 10階 ３ＬＤＫ",
       "floor": 10,
@@ -504,16 +503,6 @@
       "price": 175000000,
       "age_years": 7,
       "area": 78.59
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1167666329/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "〈ＶＥＣＳ〉パークタワー晴海　１４階 14階 ２ＬＤＫ",
-      "floor": 14,
-      "layout": "2LDK",
-      "price": 178000000,
-      "age_years": 7,
-      "area": 81.64
     },
     {
       "source": "at home",
@@ -697,6 +686,16 @@
     },
     {
       "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1150963131/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 43階 ３ＳＬＤＫ",
+      "floor": 43,
+      "layout": "3LDK",
+      "price": 274800000,
+      "age_years": 7,
+      "area": 95.43
+    },
+    {
+      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1150450413/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 26階 ３ＬＤＫ",
       "floor": 26,
@@ -777,16 +776,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1198513228/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 26階 ３ＬＤＫ",
-      "floor": 26,
-      "layout": "3LDK",
-      "price": 198000000,
-      "age_years": 7,
-      "area": 78.67
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1110119018/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "２６階部分「パークタワー晴海」晴海Ｓｅｌｅｃｔｉｏｎ 26階 ３ＬＤＫ",
       "floor": 26,
@@ -834,6 +823,16 @@
       "price": 131700000,
       "age_years": 7,
       "area": 71.65
+    },
+    {
+      "source": "at home",
+      "url": "https://www.athome.co.jp/mansion/1114159119/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
+      "title": "パークタワー晴海 14階 ２ＬＤＫ",
+      "floor": 14,
+      "layout": "2LDK",
+      "price": 188900000,
+      "age_years": 7,
+      "area": 82.27
     },
     {
       "source": "at home",
@@ -937,16 +936,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1151403031/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 22階 ３ＬＤＫ",
-      "floor": 22,
-      "layout": "3LDK",
-      "price": 149900000,
-      "age_years": 7,
-      "area": 72.94
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1010541686/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 44階 ３ＬＤＫ",
       "floor": 44,
@@ -1007,16 +996,6 @@
     },
     {
       "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1110388613/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 45階 ２ＬＤＫ",
-      "floor": 45,
-      "layout": "2LDK",
-      "price": 169000000,
-      "age_years": 7,
-      "area": 70.84
-    },
-    {
-      "source": "at home",
       "url": "https://www.athome.co.jp/mansion/1198597628/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
       "title": "パークタワー晴海 29階 ３ＬＤＫ",
       "floor": 29,
@@ -1024,16 +1003,6 @@
       "price": 188000000,
       "age_years": 7,
       "area": 70.84
-    },
-    {
-      "source": "at home",
-      "url": "https://www.athome.co.jp/mansion/1198517628/?DOWN=1&BKLISTID=001LPC&SEARCHDIV=1&sref=list_simple&isFreeword=1",
-      "title": "パークタワー晴海 31階 ３ＬＤＫ",
-      "floor": 31,
-      "layout": "3LDK",
-      "price": 149900000,
-      "age_years": 7,
-      "area": 70.53
     },
     {
       "source": "at home",
@@ -1126,20 +1095,6 @@
     },
     {
       "source": "SUUMO",
-      "title": "◆45階南向、2LDK＋TR＋WIC＋SIC",
-      "price": 148000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21369584/",
-      "area": 62.34,
-      "floor": 45,
-      "age_years": 6,
-      "management_fee": 20510,
-      "repair_reserve": 10730,
-      "direction": "南",
-      "posted_date": "2026年9月10日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
       "title": "空室内覧OK！サウナ付き×オーシャンビュー！ゆったり2LDK！共用部充実！",
       "price": 168800000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21509130/",
@@ -1149,7 +1104,7 @@
       "management_fee": 23680,
       "repair_reserve": 12390,
       "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1163,7 +1118,7 @@
       "management_fee": 25540,
       "repair_reserve": 13360,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1191,7 +1146,7 @@
       "management_fee": 22510,
       "repair_reserve": 11770,
       "direction": "北",
-      "posted_date": "2026年9月5日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1219,7 +1174,7 @@
       "management_fee": 13880,
       "repair_reserve": 25530,
       "direction": "東",
-      "posted_date": "2026年9月8日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1233,7 +1188,7 @@
       "management_fee": 26930,
       "repair_reserve": 14080,
       "direction": "南東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1247,7 +1202,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1261,7 +1216,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1275,7 +1230,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1294,6 +1249,20 @@
     },
     {
       "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億4800万円",
+      "price": 148000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21369584/",
+      "area": 62.34,
+      "floor": 45,
+      "age_years": 6,
+      "management_fee": 20510,
+      "repair_reserve": 10730,
+      "direction": "南",
+      "posted_date": "2026年9月11日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
       "title": "晴海２（月島駅） 1億4980万円",
       "price": 149800000,
       "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21330246/",
@@ -1303,21 +1272,7 @@
       "management_fee": 20510,
       "repair_reserve": 10730,
       "direction": "南",
-      "posted_date": "2026年9月10日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "即日対応可能♪ 晴海エリアを見渡せる住戸 共有部充実！快適な生活！",
-      "price": 149800000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21441689/",
-      "area": 68.97,
-      "floor": 36,
-      "age_years": 6,
-      "management_fee": 22420,
-      "repair_reserve": 11720,
-      "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1331,7 +1286,21 @@
       "management_fee": 22420,
       "repair_reserve": 11720,
       "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "即日対応可能♪ 晴海エリアを見渡せる住戸 共有部充実！快適な生活！",
+      "price": 149800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21441689/",
+      "area": 68.97,
+      "floor": 36,
+      "age_years": 6,
+      "management_fee": 22420,
+      "repair_reserve": 11720,
+      "direction": "東",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1345,7 +1314,7 @@
       "management_fee": 22770,
       "repair_reserve": 11910,
       "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1359,7 +1328,7 @@
       "management_fee": 23340,
       "repair_reserve": 12210,
       "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1387,7 +1356,7 @@
       "management_fee": 22510,
       "repair_reserve": 11770,
       "direction": "北",
-      "posted_date": "2026年9月5日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1401,7 +1370,7 @@
       "management_fee": 22510,
       "repair_reserve": 11770,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1415,7 +1384,7 @@
       "management_fee": 23020,
       "repair_reserve": 12040,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1429,7 +1398,7 @@
       "management_fee": 23740,
       "repair_reserve": 12420,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1443,35 +1412,7 @@
       "management_fee": 13880,
       "repair_reserve": 26530,
       "direction": "東",
-      "posted_date": "2026年9月5日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "晴海２（月島駅） 1億7800万円",
-      "price": 178000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_79226276/",
-      "area": 81.64,
-      "floor": 14,
-      "age_years": 6,
-      "management_fee": 13880,
-      "repair_reserve": 26530,
-      "direction": "東",
-      "posted_date": "2026年9月3日",
-      "layout": "2LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "晴海２（月島駅） 1億7900万円",
-      "price": 179000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_79226487/",
-      "area": 70.84,
-      "floor": 45,
-      "age_years": 6,
-      "management_fee": 23020,
-      "repair_reserve": 12040,
-      "direction": "南",
-      "posted_date": "2026年9月3日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1485,7 +1426,7 @@
       "management_fee": 25570,
       "repair_reserve": 13370,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
     },
     {
@@ -1499,7 +1440,21 @@
       "management_fee": 26930,
       "repair_reserve": 14080,
       "direction": "南東",
-      "posted_date": "2026年9月4日",
+      "posted_date": "2026年9月11日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "【2面バルコニー×南東角部屋】◇レインボーブリッジビュー",
+      "price": 187500000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21666257/",
+      "area": 82.85,
+      "floor": 34,
+      "age_years": 6,
+      "management_fee": 26930,
+      "repair_reserve": 14080,
+      "direction": "南",
+      "posted_date": "2026年9月8日",
       "layout": "2LDK"
     },
     {
@@ -1518,17 +1473,44 @@
     },
     {
       "source": "SUUMO",
-      "title": "【2面バルコニー×南東角部屋】◇レインボーブリッジビュー",
-      "price": 187500000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21666257/",
-      "area": 82.85,
-      "floor": 34,
+      "title": "晴海２（月島駅） 1億8890万円",
+      "price": 188900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_78841927/",
+      "area": 82.27,
+      "floor": 14,
       "age_years": 6,
-      "management_fee": 26930,
-      "repair_reserve": 14080,
-      "direction": "南",
-      "posted_date": "2026年9月8日",
+      "management_fee": 26740,
+      "repair_reserve": 13990,
+      "direction": "北",
+      "posted_date": "2026年9月11日",
       "layout": "2LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億9500万円",
+      "price": 195000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20780038/",
+      "area": 82.27,
+      "floor": 21,
+      "age_years": 6,
+      "management_fee": 26740,
+      "repair_reserve": 13990,
+      "direction": "北",
+      "posted_date": "2026年9月11日",
+      "layout": "2LDK"
+    },
+    {
+      "source": "Rehouse",
+      "title": "パークタワー晴海",
+      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FK7AGA12/",
+      "price": 148000000,
+      "layout": "2LDK",
+      "area": 63.1,
+      "floor": 45,
+      "age_years": 6,
+      "direction": "南",
+      "management_fee": 20510,
+      "repair_reserve": 7570
     },
     {
       "source": "Rehouse",
@@ -1658,7 +1640,7 @@
       "management_fee": 23340,
       "repair_reserve": 12210,
       "direction": "西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1700,7 +1682,7 @@
       "management_fee": 22550,
       "repair_reserve": 11800,
       "direction": "東",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1714,7 +1696,7 @@
       "management_fee": 26740,
       "repair_reserve": 9870,
       "direction": "西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1728,7 +1710,7 @@
       "management_fee": 28760,
       "repair_reserve": 10620,
       "direction": "北",
-      "posted_date": "2026年9月8日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1742,7 +1724,7 @@
       "management_fee": 25570,
       "repair_reserve": 13370,
       "direction": "南",
-      "posted_date": "2026年9月7日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1756,7 +1738,7 @@
       "management_fee": 26740,
       "repair_reserve": 13990,
       "direction": "北西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1784,7 +1766,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月8日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1799,20 +1781,6 @@
       "repair_reserve": 13360,
       "direction": "南",
       "posted_date": "2026年9月8日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "◇新規リノベ物件・空室のお部屋◇即日見学可能、お気軽にお問合せください",
-      "price": 209990000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21503882/",
-      "area": 78.59,
-      "floor": 44,
-      "age_years": 6,
-      "management_fee": 25540,
-      "repair_reserve": 13360,
-      "direction": "南",
-      "posted_date": "2026年9月10日",
       "layout": "3LDK"
     },
     {
@@ -1840,7 +1808,7 @@
       "management_fee": 22040,
       "repair_reserve": 11530,
       "direction": "北",
-      "posted_date": "2026年9月6日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1854,7 +1822,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1868,7 +1836,7 @@
       "management_fee": 23820,
       "repair_reserve": 12460,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1882,7 +1850,7 @@
       "management_fee": 23020,
       "repair_reserve": 12040,
       "direction": "南",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1896,7 +1864,7 @@
       "management_fee": 22910,
       "repair_reserve": 11990,
       "direction": "西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1910,7 +1878,21 @@
       "management_fee": 23680,
       "repair_reserve": 12390,
       "direction": "東",
-      "posted_date": "2026年9月7日",
+      "posted_date": "2026年9月11日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億4480万円",
+      "price": 144800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20952566/",
+      "area": 70.84,
+      "floor": 25,
+      "age_years": 6,
+      "management_fee": 23020,
+      "repair_reserve": 12040,
+      "direction": "南",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1924,35 +1906,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月10日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "晴海２（月島駅） 1億4900万円",
-      "price": 149000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_20952566/",
-      "area": 70.84,
-      "floor": 25,
-      "age_years": 6,
-      "management_fee": 23020,
-      "repair_reserve": 12040,
-      "direction": "南",
-      "posted_date": "2026年9月10日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "即日内見可能！随時お問い合わせ受付中！（直通：070-8351-5950）",
-      "price": 149800000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21668034/",
-      "area": 71.65,
-      "floor": 12,
-      "age_years": 6,
-      "management_fee": 23290,
-      "repair_reserve": 12180,
-      "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1966,7 +1920,21 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月8日",
+      "posted_date": "2026年9月11日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "即日内見可能！随時お問い合わせ受付中！（直通：070-8351-5950）",
+      "price": 149800000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21668034/",
+      "area": 71.65,
+      "floor": 12,
+      "age_years": 6,
+      "management_fee": 23290,
+      "repair_reserve": 12180,
+      "direction": "北",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1980,7 +1948,7 @@
       "management_fee": 23290,
       "repair_reserve": 12180,
       "direction": "北",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -1994,21 +1962,7 @@
       "management_fee": 22920,
       "repair_reserve": 1190,
       "direction": "西",
-      "posted_date": "2026年9月10日",
-      "layout": "3LDK"
-    },
-    {
-      "source": "SUUMO",
-      "title": "富士山を望む開放的な眺望！マンション1階にセブンイレブンあり！",
-      "price": 149900000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21270877/",
-      "area": 70.53,
-      "floor": 31,
-      "age_years": 6,
-      "management_fee": 22920,
-      "repair_reserve": 11990,
-      "direction": "西",
-      "posted_date": "2026年9月5日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -2022,21 +1976,21 @@
       "management_fee": 23710,
       "repair_reserve": 12400,
       "direction": "東",
-      "posted_date": "2026年9月7日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
       "source": "SUUMO",
-      "title": "空室　即日内覧可能♪  収納豊富！ 室内設備充実！ 共有施設充実！",
-      "price": 150000000,
-      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21505903/",
-      "area": 73.56,
-      "floor": 15,
+      "title": "富士山を望む開放的な眺望！マンション1階にセブンイレブンあり！",
+      "price": 149900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21270877/",
+      "area": 70.53,
+      "floor": 31,
       "age_years": 6,
-      "management_fee": 23910,
-      "repair_reserve": 12510,
+      "management_fee": 22920,
+      "repair_reserve": 11990,
       "direction": "西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -2050,7 +2004,21 @@
       "management_fee": 23910,
       "repair_reserve": 12510,
       "direction": "西",
-      "posted_date": "2026年9月5日",
+      "posted_date": "2026年9月11日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "空室　即日内覧可能♪  収納豊富！ 室内設備充実！ 共有施設充実！",
+      "price": 150000000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_21505903/",
+      "area": 73.56,
+      "floor": 15,
+      "age_years": 6,
+      "management_fee": 23910,
+      "repair_reserve": 12510,
+      "direction": "西",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
     },
     {
@@ -2064,8 +2032,35 @@
       "management_fee": 23910,
       "repair_reserve": 12510,
       "direction": "西",
-      "posted_date": "2026年9月10日",
+      "posted_date": "2026年9月11日",
       "layout": "3LDK"
+    },
+    {
+      "source": "SUUMO",
+      "title": "晴海２（月島駅） 1億5290万円",
+      "price": 152900000,
+      "url": "https://suumo.jp/ms/chuko/tokyo/sc_chuo/nc_78534635/",
+      "area": 72.94,
+      "floor": 22,
+      "age_years": 6,
+      "management_fee": 23710,
+      "repair_reserve": 12400,
+      "direction": "東",
+      "posted_date": "2026年9月11日",
+      "layout": "3LDK"
+    },
+    {
+      "source": "Rehouse",
+      "title": "パークタワー晴海",
+      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FSFAGA34/",
+      "price": 149900000,
+      "layout": "3LDK",
+      "area": 72.94,
+      "floor": 22,
+      "age_years": 6,
+      "direction": "東",
+      "management_fee": 23710,
+      "repair_reserve": 12400
     },
     {
       "source": "Rehouse",
@@ -2265,19 +2260,6 @@
     {
       "source": "Rehouse",
       "title": "パークタワー晴海",
-      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FSFAGA34/",
-      "price": 152900000,
-      "layout": "3LDK",
-      "area": 72.94,
-      "floor": 22,
-      "age_years": 6,
-      "direction": "東",
-      "management_fee": 23710,
-      "repair_reserve": 12400
-    },
-    {
-      "source": "Rehouse",
-      "title": "パークタワー晴海",
       "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/F1FARA0D/",
       "price": 177000000,
       "layout": "3LDK",
@@ -2287,19 +2269,6 @@
       "direction": "南",
       "management_fee": 25540,
       "repair_reserve": 13360
-    },
-    {
-      "source": "Rehouse",
-      "title": "パークタワー晴海",
-      "url": "https://www.rehouse.co.jp/buy/mansion/bkdetail/FK7AQA0C/",
-      "price": 249000000,
-      "layout": "3LDK",
-      "area": 89.95,
-      "floor": 13,
-      "age_years": 6,
-      "direction": "南",
-      "management_fee": 29230,
-      "repair_reserve": 15290
     }
   ]
 }
